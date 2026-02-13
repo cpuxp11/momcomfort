@@ -13,6 +13,9 @@ export default function Header() {
         {/* Navigation */}
         <nav className="flex items-center space-x-1 sm:space-x-2">
           <Button variant="ghost" asChild size="lg" className="text-base hover:text-pink-600 hover:bg-pink-50 min-h-[44px]">
+            <Link href="/timeline">타임라인</Link>
+          </Button>
+          <Button variant="ghost" asChild size="lg" className="text-base hover:text-pink-600 hover:bg-pink-50 min-h-[44px]">
             <Link href="/benefits">혜택 검색</Link>
           </Button>
           <Button variant="ghost" asChild size="lg" className="text-base hover:text-pink-600 hover:bg-pink-50 min-h-[44px]">
