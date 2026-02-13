@@ -73,6 +73,7 @@ function toBenefitCard(b: Benefit): BenefitCard {
     sigungu,
     applyMethod: b.신청방법,
     phone: b.전화문의,
+    views: b.조회수,
   };
 }
 
@@ -80,7 +81,7 @@ let _allCards: BenefitCard[] | null = null;
 
 export function getAllBenefits(): BenefitCard[] {
   if (!_allCards) {
-    _allCards = data.data.map(toBenefitCard);
+    _allCards = data.data.map(toBenefitCard).sort((a, b) => b.views - a.views);
   }
   return _allCards;
 }

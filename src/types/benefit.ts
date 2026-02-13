@@ -57,4 +57,5 @@ export interface BenefitCard {
   sigungu: string;
   applyMethod: string;
   phone: string;
+  views: number;
 }
