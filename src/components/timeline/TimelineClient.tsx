@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useMemo, useCallback } from 'react';
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import type { BenefitCard } from '@/types/benefit';
 import type { RegionHierarchy } from '@/types/region';
 import {
@@ -8,7 +8,6 @@ import {
   filterBenefitsByRegion,
   weekToPhase,
   phaseToIndex,
-  TIMELINE_PHASES,
 } from '@/lib/timeline';
 import ProgressBar from './ProgressBar';
 import TimelinePhaseCard from './TimelinePhaseCard';
@@ -44,28 +43,45 @@ interface TimelineClientProps {
   regionMap: RegionHierarchy;
 }
 
+function applySavedState(saved: SavedState, setters: {
+  setCurrentWeek: (value: number) => void;
+  setSido: (value: string) => void;
+  setSigungu: (value: string) => void;
+  setCheckedIds: (value: Set<string>) => void;
+}) {
+  setters.setCurrentWeek(saved.currentWeek);
+  setters.setSido(saved.sido);
+  setters.setSigungu(saved.sigungu);
+  setters.setCheckedIds(new Set(saved.checkedBenefits));
+}
+
 export default function TimelineClient({ allBenefits, regionMap }: TimelineClientProps) {
   const [currentWeek, setCurrentWeek] = useState<number>(0);
   const [sido, setSido] = useState<string>('전체');
   const [sigungu, setSigungu] = useState<string>('전체');
   const [checkedIds, setCheckedIds] = useState<Set<string>>(new Set());
-  const [isLoaded, setIsLoaded] = useState(false);
+  const hasInitialized = useRef(false);
 
   // Load saved state on mount
   useEffect(() => {
     const saved = loadSavedState();
     if (saved) {
-      setCurrentWeek(saved.currentWeek);
-      setSido(saved.sido);
-      setSigungu(saved.sigungu);
-      setCheckedIds(new Set(saved.checkedBenefits));
+      applySavedState(saved, {
+        setCurrentWeek,
+        setSido,
+        setSigungu,
+        setCheckedIds,
+      });
     }
-    setIsLoaded(true);
   }, []);
 
   // Save state when it changes
   useEffect(() => {
-    if (!isLoaded) return;
+    if (!hasInitialized.current) {
+      hasInitialized.current = true;
+      return;
+    }
+
     saveState({
       currentWeek,
       sido,
@@ -73,7 +89,7 @@ export default function TimelineClient({ allBenefits, regionMap }: TimelineClien
       checkedBenefits: Array.from(checkedIds),
       lastUpdated: new Date().toISOString(),
     });
-  }, [currentWeek, sido, sigungu, checkedIds, isLoaded]);
+  }, [currentWeek, sido, sigungu, checkedIds]);
 
   // Available sigungus for selected sido
   const availableSigungus = useMemo(() => {
@@ -81,12 +97,18 @@ export default function TimelineClient({ allBenefits, regionMap }: TimelineClien
     return regionMap[sido].districts;
   }, [sido, regionMap]);
 
-  // Reset sigungu when sido changes
-  useEffect(() => {
-    if (sigungu !== '전체' && !availableSigungus.includes(sigungu)) {
+  const handleSidoChange = (nextSido: string) => {
+    setSido(nextSido);
+    if (nextSido === '전체' || !regionMap[nextSido]) {
+      if (sigungu !== '전체') setSigungu('전체');
+      return;
+    }
+
+    const nextSigungus = regionMap[nextSido].districts;
+    if (sigungu !== '전체' && !nextSigungus.includes(sigungu)) {
       setSigungu('전체');
     }
-  }, [sido, availableSigungus, sigungu]);
+  };
 
   // Filter by region, then group by phase
   const phasedBenefits = useMemo(() => {
@@ -154,7 +176,7 @@ export default function TimelineClient({ allBenefits, regionMap }: TimelineClien
             <select
               id="sido"
               value={sido}
-              onChange={(e) => setSido(e.target.value)}
+              onChange={(e) => handleSidoChange(e.target.value)}
               className="w-full h-12 px-3 rounded-md border border-gray-300 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-pink-300 focus:border-pink-400"
             >
               <option value="전체">전체</option>

@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getAllBenefits, getBenefitById, getRelatedBenefits } from '@/lib/benefits';
+import { getBenefitById, getRelatedBenefits } from '@/lib/benefits';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -10,13 +10,6 @@ import type { Category } from '@/types/benefit';
 
 interface PageProps {
   params: Promise<{ id: string }>;
-}
-
-export async function generateStaticParams() {
-  const benefits = getAllBenefits();
-  return benefits.map((benefit) => ({
-    id: benefit.id,
-  }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {

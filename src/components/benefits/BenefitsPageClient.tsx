@@ -7,7 +7,6 @@ import type { RegionHierarchy } from '@/types/region';
 import { STAGE_CONFIG, ITEMS_PER_PAGE } from '@/lib/constants';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
 import BenefitCardComponent from './BenefitCardComponent';
 
 interface BenefitsPageClientProps {
@@ -44,13 +43,6 @@ export default function BenefitsPageClient({ initialBenefits, regionMap }: Benef
     if (sido === '전체' || !regionMap[sido]) return [];
     return regionMap[sido].districts;
   }, [sido, regionMap]);
-
-  // Reset sigungu only when current value is invalid for selected sido
-  useEffect(() => {
-    if (sigungu !== '전체' && !availableSigungus.includes(sigungu)) {
-      setSigungu('전체');
-    }
-  }, [sido, availableSigungus, sigungu]);
 
   // Filter benefits
   const filteredBenefits = useMemo(() => {
@@ -95,11 +87,6 @@ export default function BenefitsPageClient({ initialBenefits, regionMap }: Benef
     return filteredBenefits.slice(start, start + ITEMS_PER_PAGE);
   }, [filteredBenefits, currentPage]);
 
-  // Reset to page 1 when filters change
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [sido, sigungu, selectedStages, debouncedQuery]);
-
   // Update URL when filters change (use History API to avoid Next.js re-mount)
   useEffect(() => {
     const params = new URLSearchParams();
@@ -118,6 +105,32 @@ export default function BenefitsPageClient({ initialBenefits, regionMap }: Benef
     setSelectedStages(prev =>
       prev.includes(stage) ? prev.filter(s => s !== stage) : [...prev, stage]
     );
+    setCurrentPage(1);
+  };
+
+  const handleSidoChange = (nextSido: string) => {
+    setSido(nextSido);
+    setCurrentPage(1);
+
+    if (nextSido === '전체' || !regionMap[nextSido]) {
+      if (sigungu !== '전체') setSigungu('전체');
+      return;
+    }
+
+    const nextSigungus = regionMap[nextSido].districts;
+    if (sigungu !== '전체' && !nextSigungus.includes(sigungu)) {
+      setSigungu('전체');
+    }
+  };
+
+  const handleSigunguChange = (nextSigungu: string) => {
+    setSigungu(nextSigungu);
+    setCurrentPage(1);
+  };
+
+  const handleSearchChange = (nextQuery: string) => {
+    setSearchQuery(nextQuery);
+    setCurrentPage(1);
   };
 
   // Build results header text
@@ -147,7 +160,7 @@ export default function BenefitsPageClient({ initialBenefits, regionMap }: Benef
             <select
               id="sido"
               value={sido}
-              onChange={(e) => setSido(e.target.value)}
+              onChange={(e) => handleSidoChange(e.target.value)}
               className="w-full h-12 px-3 rounded-md border border-input bg-background text-sm"
             >
               <option value="전체">전체</option>
@@ -166,7 +179,7 @@ export default function BenefitsPageClient({ initialBenefits, regionMap }: Benef
             <select
               id="sigungu"
               value={sigungu}
-              onChange={(e) => setSigungu(e.target.value)}
+              onChange={(e) => handleSigunguChange(e.target.value)}
               disabled={sido === '전체' || availableSigungus.length === 0}
               className="w-full h-12 px-3 rounded-md border border-input bg-background text-sm disabled:cursor-not-allowed disabled:opacity-50"
             >
@@ -212,7 +225,7 @@ export default function BenefitsPageClient({ initialBenefits, regionMap }: Benef
             type="text"
             placeholder="혜택명, 지원내용으로 검색"
             value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            onChange={(e) => handleSearchChange(e.target.value)}
             className="max-w-md"
           />
         </div>

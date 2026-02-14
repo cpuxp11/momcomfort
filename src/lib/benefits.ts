@@ -188,7 +188,7 @@ export function getSigunguBySido(sido: string): string[] {
 
 export function getRelatedBenefits(benefit: Benefit, limit = 4): BenefitCard[] {
   const cards = getAllBenefits();
-  const { sido, sigungu } = parseSidoSigungu(benefit.소관기관명, benefit.소관기관유형, benefit._region);
+  const { sido } = parseSidoSigungu(benefit.소관기관명, benefit.소관기관유형, benefit._region);
 
   return cards
     .filter(c => c.id !== benefit.서비스ID)
