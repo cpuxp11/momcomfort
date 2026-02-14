@@ -11,6 +11,23 @@ interface PageProps {
   params: Promise<{ sido: string; sigungu: string }>;
 }
 
+export async function generateStaticParams() {
+  const allSido = getAllSido();
+  const params: { sido: string; sigungu: string }[] = [];
+
+  for (const sido of allSido) {
+    const districts = getSigunguBySido(sido);
+    for (const sigungu of districts) {
+      params.push({
+        sido: encodeURIComponent(sido),
+        sigungu: encodeURIComponent(sigungu),
+      });
+    }
+  }
+
+  return params;
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { sido, sigungu } = await params;
   const decodedSido = decodeURIComponent(sido);

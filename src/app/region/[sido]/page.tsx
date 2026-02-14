@@ -11,6 +11,13 @@ interface PageProps {
   params: Promise<{ sido: string }>;
 }
 
+export async function generateStaticParams() {
+  const allSido = getAllSido();
+  return allSido.map((sido) => ({
+    sido: encodeURIComponent(sido),
+  }));
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { sido } = await params;
   const decodedSido = decodeURIComponent(sido);
