@@ -1,0 +1,4516 @@
+{
+  "scan_date": "2026-02-12 02:58:54",
+  "total_scanned": 140,
+  "found": 104,
+  "accessible": 19,
+  "failed": 17,
+  "pattern_counts": {
+    "unknown": 10,
+    "E": 13,
+    "F": 7,
+    "A_variant": 14,
+    "A": 1
+  },
+  "results": {
+    "서울 종로구": {
+      "name": "서울 종로구",
+      "domain": "www.jongno.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임신·출산·보육",
+          "url": "https://www.jongno.go.kr/portalMain.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임신·출산·보육",
+          "url": "https://www.jongno.go.kr/portalMain.do",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.jongno.go.kr/portalMain.do"
+    },
+    "서울 성동구": {
+      "name": "서울 성동구",
+      "domain": "www.sd.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.sd.go.kr/health/contents.do?key=2305&",
+          "pattern": "A"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원",
+          "url": "https://www.sd.go.kr/health/contents.do?key=2308&",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년 산모 임신·출산 의료비 지원",
+          "url": "https://www.sd.go.kr/health/contents.do?key=2309&",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 가사돌봄서비스",
+          "url": "https://www.sd.go.kr/health/contents.do?key=3915&",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 교통비 지원사업",
+          "url": "https://www.sd.go.kr/health/contents.do?key=4509&",
+          "pattern": "A"
+        },
+        {
+          "text": "35세 이상 임산부 의료비 지원",
+          "url": "https://www.sd.go.kr/health/contents.do?key=5102&",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건사업 종합 안내(책자)",
+          "url": "https://www.sd.go.kr/health/contents.do?key=2324&",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.sd.go.kr/health/sub.do?key=2304",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.sd.go.kr/health/main.do"
+    },
+    "서울 동대문구": {
+      "name": "서울 동대문구",
+      "domain": "www.ddm.go.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.ddm.go.kr/ErrorHome/error.html"
+    },
+    "서울 성북구": {
+      "name": "서울 성북구",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임신·출산",
+          "url": "https://sbhappy.sb.go.kr/PageLink.do?menuNo=010000&subMenuNo=010101&thirdMenuNo=&link=forward:/lowb/LowBirthCateList.do?searchLowbCate=01",
+          "pattern": "A_variant"
+        }
+      ],
+      "method": "playwright",
+      "total_links": 790,
+      "found_at_depth": 1
+    },
+    "서울 강북구": {
+      "name": "서울 강북구",
+      "domain": "www.gangbuk.go.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "서울 중구": {
+      "name": "서울 중구",
+      "domain": "www.junggu.go.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "서울 도봉구": {
+      "name": "서울 도봉구",
+      "domain": "www.dobong.go.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.dobong.go.kr/health/main.do"
+    },
+    "서울 노원구": {
+      "name": "서울 노원구",
+      "domain": "www.nowon.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임신·출산·영유아",
+          "url": "https://www.nowon.kr/health/healthIncrz/healthIncrz1/healthIncrz1_01.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임신·출산·영유아 지원사항",
+          "url": "https://www.nowon.kr/health/healthIncrz/healthIncrz1/healthIncrz1_01.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임산부지원",
+          "url": "https://www.nowon.kr/health/healthIncrz/healthIncrz1/healthIncrz1_03.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임신·출산·영유아",
+          "url": "https://www.nowon.kr/health/healthIncrz/healthIncrz1/healthIncrz1_01.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임신·출산·영유아 지원사항",
+          "url": "https://www.nowon.kr/health/healthIncrz/healthIncrz1/healthIncrz1_01.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임산부지원",
+          "url": "https://www.nowon.kr/health/healthIncrz/healthIncrz1/healthIncrz1_03.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "2020년도 모자보건사업 기간제근로자 채용공고2020.03.26",
+          "url": "https://www.nowon.kr/health/user/bbs/BD_selectBbs.do?q_bbsCode=1003&q_clCode=1&q_estnColumn1=21&q_bbscttSn=20200326000094407&q_ntceSiteCode=21&q_estnColumn7=Y",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 지원",
+          "url": "https://www.nowon.kr/health/healthIncrz/healthIncrz1/healthIncrz1_03.jsp",
+          "pattern": "E"
+        }
+      ],
+      "accessed_url": "https://www.nowon.kr/health/index.do"
+    },
+    "서울 은평구": {
+      "name": "서울 은평구",
+      "domain": "www.ep.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부 등록관리",
+          "url": "https://www.ep.go.kr/health/contents.do?key=1574",
+          "pattern": "A"
+        },
+        {
+          "text": "모자건강교실",
+          "url": "https://www.ep.go.kr/health/contents.do?key=1585",
+          "pattern": "A"
+        },
+        {
+          "text": "35세 이상 임산부 의료비 지원",
+          "url": "https://www.ep.go.kr/health/contents.do?key=4738",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.ep.go.kr/health/contents.do?key=1588",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비 지원",
+          "url": "https://www.ep.go.kr/health/contents.do?key=1587",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아 건강관리 지원",
+          "url": "https://www.ep.go.kr/health/contents.do?key=1581",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.ep.go.kr/health/index.do"
+    },
+    "서울 중랑구": {
+      "name": "서울 중랑구",
+      "domain": "www.jungnang.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400321",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부관리",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400330",
+          "pattern": "A"
+        },
+        {
+          "text": "출산지원",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400331",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건 프로그램",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400533",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400408",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년 산모 임신 · 출산 의료비 지원",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400409",
+          "pattern": "A"
+        },
+        {
+          "text": "35세 이상 임산부 의료비 지원",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400526",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400321",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부관리",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400330",
+          "pattern": "A"
+        },
+        {
+          "text": "출산지원",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400331",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건 프로그램",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400533",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400408",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년 산모 임신 · 출산 의료비 지원",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400409",
+          "pattern": "A"
+        },
+        {
+          "text": "35세 이상 임산부 의료비 지원",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400526",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부관리",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400357",
+          "pattern": "A"
+        },
+        {
+          "text": "산모·신생아건강관리 지원",
+          "url": "https://www.jungnang.go.kr/health/main/contents.do?menuNo=400360",
+          "pattern": "A"
+        },
+        {
+          "text": "임신·출산",
+          "url": "https://www.jungnang.go.kr/health/bbs/list/B0000491.do?menuNo=400306&tmpOption2=01",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.jungnang.go.kr/health/main.do"
+    },
+    "서울 서대문구": {
+      "name": "서울 서대문구",
+      "domain": "www.sdm.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.sdm.go.kr/",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자건강증진센터(모자건강교실 안내)",
+          "url": "https://www.sdm.go.kr/health/contents/healthbiz/maternal/mchpc",
+          "pattern": "unknown"
+        },
+        {
+          "text": "2025 모자보건사업 안내 책자 보기",
+          "url": "https://www.sdm.go.kr/health/htmlView/html.jsp?fileId=195da23cb2b30&fileSeq=3&useSecurity=true&fileMask=20250710197f2c3c3db790",
+          "pattern": "E"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.sdm.go.kr/health/contents/healthbiz/maternal/prebabysup",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.sdm.go.kr/health/contents/healthbiz/maternal/maternalHealth",
+          "pattern": "unknown"
+        }
+      ],
+      "accessed_url": "https://www.sdm.go.kr/health/main.do"
+    },
+    "서울 강서구": {
+      "name": "서울 강서구",
+      "domain": "www.gangseo.seoul.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.gangseo.seoul.kr/health/ht020231",
+          "pattern": "unknown"
+        },
+        {
+          "text": "임산부 건강관리",
+          "url": "https://www.gangseo.seoul.kr/health/ht020213",
+          "pattern": "unknown"
+        },
+        {
+          "text": "임산부 등록관리",
+          "url": "https://www.gangseo.seoul.kr/health/ht020213",
+          "pattern": "unknown"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.gangseo.seoul.kr/health/ht020217",
+          "pattern": "unknown"
+        },
+        {
+          "text": "35세 이상 임산부 의료비 지원사업",
+          "url": "https://www.gangseo.seoul.kr/health/ht020230",
+          "pattern": "unknown"
+        },
+        {
+          "text": "청소년 산모 임신 출산 의료비 지원",
+          "url": "https://www.gangseo.seoul.kr/health/ht020216",
+          "pattern": "unknown"
+        },
+        {
+          "text": "임산부 자동차 표지 발급",
+          "url": "https://www.gangseo.seoul.kr/health/ht020214",
+          "pattern": "unknown"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원",
+          "url": "https://www.gangseo.seoul.kr/health/ht020218",
+          "pattern": "unknown"
+        },
+        {
+          "text": "임산부·영유아 가정방문 건강관리",
+          "url": "https://www.gangseo.seoul.kr/health/ht020227",
+          "pattern": "unknown"
+        },
+        {
+          "text": "임산부 건강관리",
+          "url": "https://www.gangseo.seoul.kr/health/ht030109",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.gangseo.seoul.kr/health/ht020231",
+          "pattern": "unknown"
+        }
+      ],
+      "accessed_url": "https://www.gangseo.seoul.kr/health/index"
+    },
+    "서울 마포구": {
+      "name": "서울 마포구",
+      "domain": "www.mapo.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "장애인/노약자/임산부배려창구",
+          "url": "https://www.mapo.go.kr/site/main/content/mapo010206",
+          "pattern": "unknown"
+        },
+        {
+          "text": "장애인/노약자/임산부배려창구",
+          "url": "https://www.mapo.go.kr/site/main/content/mapo010206",
+          "pattern": "unknown"
+        },
+        {
+          "text": "장애인/노약자/임산부배려창구",
+          "url": "https://www.mapo.go.kr/site/main/content/mapo010206",
+          "pattern": "unknown"
+        }
+      ],
+      "accessed_url": "https://www.mapo.go.kr/site/main/home"
+    },
+    "서울 광진구": {
+      "name": "서울 광진구",
+      "domain": "www.gwangjin.go.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.gwangjin.go.kr/health/main.do"
+    },
+    "서울 금천구": {
+      "name": "서울 금천구",
+      "domain": "www.geumcheon.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.geumcheon.go.kr/health/contents.do?key=4559",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 건강관리",
+          "url": "https://www.geumcheon.go.kr/health/contents.do?key=1470",
+          "pattern": "A"
+        },
+        {
+          "text": "임신부‧출산모‧영유아 가정방문",
+          "url": "https://www.geumcheon.go.kr/health/contents.do?key=1474",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아 건강관리 지원사업",
+          "url": "https://www.geumcheon.go.kr/health/contents.do?key=1475",
+          "pattern": "A"
+        },
+        {
+          "text": "35세이상 임산부 의료비 지원 사업",
+          "url": "https://www.geumcheon.go.kr/health/contents.do?key=4440",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 및 영유아 영양플러스",
+          "url": "https://www.geumcheon.go.kr/health/contents.do?key=1479",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비",
+          "url": "https://www.geumcheon.go.kr/health/contents.do?key=1490",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비",
+          "url": "https://www.geumcheon.go.kr/health/contents.do?key=1491",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.geumcheon.go.kr/health/index.do"
+    },
+    "서울 양천구": {
+      "name": "서울 양천구",
+      "domain": "www.yangcheon.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "서울시 임산부 교통비 지원",
+          "url": "https://www.yangcheon.go.kr/site/yangcheon/05/10503021100002022062411.jsp",
+          "pattern": "E"
+        }
+      ],
+      "accessed_url": "https://www.yangcheon.go.kr/site/yangcheon/main.do"
+    },
+    "서울 영등포구": {
+      "name": "서울 영등포구",
+      "domain": "www.ydp.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.ydp.go.kr/health/contents.do?key=6073&",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 건강관리",
+          "url": "https://www.ydp.go.kr/health/contents.do?key=3524&",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년 산모 의료비",
+          "url": "https://www.ydp.go.kr/health/contents.do?key=3536&",
+          "pattern": "A"
+        },
+        {
+          "text": "35세 이상 임산부 의료비",
+          "url": "https://www.ydp.go.kr/health/contents.do?key=6031&",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아 건강관리지원",
+          "url": "https://www.ydp.go.kr/health/contents.do?key=3540&",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원사업",
+          "url": "https://www.ydp.go.kr/health/contents.do?key=3537&",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험임산부관리",
+          "url": "https://www.ydp.go.kr/health/contents.do?key=3590&",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.ydp.go.kr/health/main.do"
+    },
+    "서울 용산구": {
+      "name": "서울 용산구",
+      "domain": "www.yongsan.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "청소년산모 임신-출산 의료비 지원",
+          "url": "https://www.yongsan.go.kr/health/main/contents.do?menuNo=300056",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.yongsan.go.kr/health/main/contents.do?menuNo=300057",
+          "pattern": "A"
+        },
+        {
+          "text": "35세 이상 임산부 의료비 지원사업",
+          "url": "https://www.yongsan.go.kr/health/main/contents.do?menuNo=300209",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.yongsan.go.kr/health/main/contents.do?menuNo=300098",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부건강관리",
+          "url": "https://www.yongsan.go.kr/health/main/contents.do?menuNo=300098",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건 교육프로그램",
+          "url": "https://www.yongsan.go.kr/health/main/contents.do?menuNo=300105",
+          "pattern": "A"
+        },
+        {
+          "text": "산모 신생아 건강관리 지원사업",
+          "url": "https://www.yongsan.go.kr/health/main/contents.do?menuNo=300106",
+          "pattern": "A"
+        },
+        {
+          "text": "산모 산후조리 경비 지원",
+          "url": "https://www.yongsan.go.kr/health/main/contents.do?menuNo=300195",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.yongsan.go.kr/health/main/contents.do?menuNo=300098",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.yongsan.go.kr/health/main/main.do"
+    },
+    "서울 관악구": {
+      "name": "서울 관악구",
+      "domain": "www.gwanak.go.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.gwanak.go.kr/health/main.do"
+    },
+    "서울 서초구": {
+      "name": "서울 서초구",
+      "domain": "www.seocho.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "서초모자보건지소",
+          "url": "https://www.seocho.go.kr/site/sh/01/10108000000002018011703.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "양재 모자건강센터",
+          "url": "https://www.seocho.go.kr/site/sh/01/10112000000002023100609.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임산부",
+          "url": "https://www.seocho.go.kr/site/sh/03/10304010100002020031805.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "서초모자보건지소",
+          "url": "https://www.seocho.go.kr/site/sh/01/10108000000002018011703.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "양재 모자건강센터",
+          "url": "https://www.seocho.go.kr/site/sh/01/10112000000002023100609.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임산부",
+          "url": "https://www.seocho.go.kr/site/sh/03/10304010100002020031805.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임신 출산 준비",
+          "url": "https://www.seocho.go.kr/site/sh/03/10304010100002020031805.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임산부 건강관리",
+          "url": "https://www.seocho.go.kr/site/sh/03/10304020100002020031909.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임산부 건강관리",
+          "url": "https://www.seocho.go.kr/site/sh/03/10304020100002020031909.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "서초산모 출산 후 건강검진",
+          "url": "https://www.seocho.go.kr/site/sh/03/10304080000002026010511.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원사업(산모돌보미)",
+          "url": "https://www.seocho.go.kr/site/sh/03/10304010800002020031805.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "산모 · 신생아 건강관리 지원사업",
+          "url": "https://www.seocho.go.kr/site/sh/03/10304010800002020031805.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "서초 산모신생아 건강관리 지원사업",
+          "url": "https://www.seocho.go.kr/site/sh/03/10304010900002020031805.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "서초 산모·신생아 건강관리사 인증제",
+          "url": "https://www.seocho.go.kr/site/sh/03/10304030300002025082702.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "서울형 산모 산후조리경비 지원사업",
+          "url": "https://www.seocho.go.kr/site/sh/03/10304030300002023081401.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.seocho.go.kr/site/sh/03/10304010500002020031805.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "청소년 산모 임신출산 의료비 지원",
+          "url": "https://www.seocho.go.kr/site/sh/03/10304010600002020031805.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "35세 이상 임산부 의료비 지원사업",
+          "url": "https://www.seocho.go.kr/site/sh/03/10305150000002024071509.jsp",
+          "pattern": "E"
+        }
+      ],
+      "accessed_url": "https://www.seocho.go.kr/site/sh/main.do"
+    },
+    "서울 강남구": {
+      "name": "서울 강남구",
+      "domain": "www.gangnam.go.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.gangnam.go.kr/health/main.do"
+    },
+    "서울 송파구": {
+      "name": "서울 송파구",
+      "domain": "www.songpa.go.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "서울 구로구": {
+      "name": "서울 구로구",
+      "domain": "www.guro.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임신·출산지원",
+          "url": "https://www.guro.go.kr/health/contents.do?key=1310&",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부진료",
+          "url": "https://www.guro.go.kr/health/contents.do?key=1310&",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건 교육사업",
+          "url": "https://www.guro.go.kr/health/contents.do?key=1354&",
+          "pattern": "A"
+        },
+        {
+          "text": "35세 이상 임산부 의료비 지원",
+          "url": "https://www.guro.go.kr/health/contents.do?key=4392&",
+          "pattern": "A"
+        },
+        {
+          "text": "산모·신생아 건강관리사 지원",
+          "url": "https://www.guro.go.kr/health/contents.do?key=1329&",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비지원",
+          "url": "https://www.guro.go.kr/health/contents.do?key=1335&",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건 교육사업",
+          "url": "https://www.guro.go.kr/health/null",
+          "pattern": "unknown"
+        },
+        {
+          "text": "구로구 모자건강센터",
+          "url": "https://www.guro.go.kr/health/contents.do?key=4460&",
+          "pattern": "A"
+        },
+        {
+          "text": "영양플러스를 신청하고 싶어요.질문> 영양플러스를 신청하려면 어떻게 해야 하나요?\r\n답변> *대상구분- 구로구 내 임산부 (임신,출산,수유부) 및 영유아 (만72개월이하까지)(단, 저소득층 조제분유 지원을 받는 영유아, 임산부 친환경 농산물 꾸러미사업에 참여하는 임신, 출산, 수유부는 중복 수혜 불가합니다.) *소득기준- 가구 규모별 기준 중위소득의 80% 이하 *위험요인- 빈혈, 저체중, 성장부진, 과체중 및 비만 영양상태불량 중 한가지 이상의 영양위험요인 보유자(신규자 영양평가를 통해 확인)※ 임신부의 경우, 소득수준 해당될 경우 영양위험요인 판정절차 없이 대상자로 선정 가능합니다. ★신청하는 방법★1. 전화 신청 (02-2620-7781,7782)2. 방문신청 (개봉동 모자건강센터 3층 영양플러스실)",
+          "url": "https://www.guro.go.kr/health/selectBbsNttView.do?bbsNo=577&nttNo=28342&&pageUnit=10&key=1303&pageIndex=1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부영유아 교육",
+          "url": "https://www.guro.go.kr/health/contents.do?key=1354&",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부진료",
+          "url": "https://www.guro.go.kr/health/contents.do?key=1310",
+          "pattern": "A"
+        },
+        {
+          "text": "산모, 신생아 건강관리사 지원",
+          "url": "https://www.guro.go.kr/health/contents.do?key=1329",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.guro.go.kr/health/index.do;jsessionid=C0F3ABB662CD5B921B5C1F56E2877B63.3c9fdff513c606261"
+    },
+    "서울 강동구": {
+      "name": "서울 강동구",
+      "domain": "www.gangdong.go.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "부산 중구": {
+      "name": "부산 중구",
+      "domain": "www.bsjunggu.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업임산부의 산전·산후관리를 지원하고, 아이와 모성의 건강을 도모하고 있습니다.",
+          "url": "https://www.bsjunggu.go.kr/index.junggu?menuCd=DOM_000000603001001000",
+          "pattern": "C"
+        },
+        {
+          "text": "영양지원영양상태가 취약한 임산부 및 영유아를 대상으로 보충영양식품 공급, 영양교육을 합니다.",
+          "url": "https://www.bsjunggu.go.kr/index.junggu?menuCd=DOM_000000603003006000",
+          "pattern": "C"
+        }
+      ],
+      "accessed_url": "https://www.bsjunggu.go.kr/health/index.do"
+    },
+    "부산 동구": {
+      "name": "부산 동구",
+      "domain": "www.bsdonggu.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.bsdonggu.go.kr/health/index.donggu?menuCd=DOM_000000404007000000",
+          "pattern": "C"
+        },
+        {
+          "text": "「맘편한 임신」임산부 건강관리",
+          "url": "https://www.bsdonggu.go.kr/health/index.donggu?menuCd=DOM_000000404007002000",
+          "pattern": "C"
+        },
+        {
+          "text": "임산부, 영유아 영양플러스 사업",
+          "url": "https://www.bsdonggu.go.kr/health/index.donggu?menuCd=DOM_000000404007005000",
+          "pattern": "C"
+        },
+        {
+          "text": "산모신생아건강관리사지원사업",
+          "url": "https://www.bsdonggu.go.kr/health/index.donggu?menuCd=DOM_000000404007008000",
+          "pattern": "C"
+        },
+        {
+          "text": "고위험 임산부의료비 지원사업",
+          "url": "https://www.bsdonggu.go.kr/health/index.donggu?menuCd=DOM_000000404007009000",
+          "pattern": "C"
+        }
+      ],
+      "accessed_url": "https://www.bsdonggu.go.kr/health/index.do"
+    },
+    "부산 영도구": {
+      "name": "부산 영도구",
+      "domain": "www.yeongdo.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "행복출산 원스톱서비스",
+          "url": "https://www.gov.kr/main?a=AA020InfoCappViewApp&HighCtgCD=A01004&CappBizCD=17410000001",
+          "pattern": "unknown"
+        }
+      ],
+      "search_depth": 3,
+      "accessed_url": "https://www.yeongdo.go.kr/main.web",
+      "found_at_depth": 1
+    },
+    "서울 동작구": {
+      "name": "서울 동작구",
+      "domain": "www.dongjak.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=200281",
+          "pattern": "A"
+        },
+        {
+          "text": "출산지원",
+          "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=200287",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.dongjak.go.kr/portal/main/main.do"
+    },
+    "부산 남구": {
+      "name": "부산 남구",
+      "domain": "www.bsnamgu.go.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.bsnamgu.go.kr/health/index.do"
+    },
+    "부산 북구": {
+      "name": "부산 북구",
+      "domain": "www.bsbukgu.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "산모 신생아 건강관리 지원사업",
+          "url": "https://www.bsbukgu.go.kr/health/index.bsbukgu?menuCd=DOM_000000503002007000",
+          "pattern": "C"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원사업",
+          "url": "https://www.bsbukgu.go.kr/health/index.bsbukgu?menuCd=DOM_000000503002013000",
+          "pattern": "C"
+        },
+        {
+          "text": "고위험 임산부 가사도우미 지원사업",
+          "url": "https://www.bsbukgu.go.kr/health/index.bsbukgu?menuCd=DOM_000000503002014000",
+          "pattern": "C"
+        }
+      ],
+      "accessed_url": "https://www.bsbukgu.go.kr/health/index.do"
+    },
+    "부산 동래구": {
+      "name": "부산 동래구",
+      "domain": "www.dongnae.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부관리",
+          "url": "https://www.dongnae.go.kr/index.dongnae?menuCd=DOM_000000802011000000",
+          "pattern": "C"
+        },
+        {
+          "text": "임산부 건강관리",
+          "url": "https://www.dongnae.go.kr/index.dongnae?menuCd=DOM_000000803005001000",
+          "pattern": "C"
+        },
+        {
+          "text": "산모신생아 건강관리 지원사업",
+          "url": "https://www.dongnae.go.kr/index.dongnae?menuCd=DOM_000000803005003000",
+          "pattern": "C"
+        },
+        {
+          "text": "고위험임산부 의료비 지원",
+          "url": "https://www.dongnae.go.kr/index.dongnae?menuCd=DOM_000000803005005000",
+          "pattern": "C"
+        }
+      ],
+      "accessed_url": "https://www.dongnae.go.kr/health/index.do"
+    },
+    "부산 사하구": {
+      "name": "부산 사하구",
+      "domain": "www.saha.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.saha.go.kr/health/contents.do?mId=0402000000",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아 건강관리지원",
+          "url": "https://www.saha.go.kr/health/contents.do?mId=0402020000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부건강관리",
+          "url": "https://www.saha.go.kr/health/contents.do?mId=0402010000",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년산모 의료비 지원",
+          "url": "https://www.saha.go.kr/health/contents.do?mId=0402060000",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비지원",
+          "url": "https://www.saha.go.kr/health/contents.do?mId=0402100000",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.saha.go.kr/health/contents.do?mId=0401000000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 대상 무료 공연 관람 지원 안내(을숙도문화회관 2월 기획공연)2026-01-29",
+          "url": "https://www.saha.go.kr/health/bbs/view.do?mId=0102010000&bIdx=151021&ptIdx=44",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.saha.go.kr/health/main.do"
+    },
+    "부산 부산진구": {
+      "name": "부산 부산진구",
+      "domain": "www.busanjin.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.busanjin.go.kr/index.busanjin?menuCd=DOM_000000504002001000",
+          "pattern": "C"
+        },
+        {
+          "text": "임산부 건강관리사업",
+          "url": "https://www.busanjin.go.kr/index.busanjin?menuCd=DOM_000000504002001000",
+          "pattern": "C"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원사업",
+          "url": "https://www.busanjin.go.kr/index.busanjin?menuCd=DOM_000000504002003000",
+          "pattern": "C"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원사업",
+          "url": "https://www.busanjin.go.kr/index.busanjin?menuCd=DOM_000000504002014000",
+          "pattern": "C"
+        }
+      ],
+      "accessed_url": "https://www.busanjin.go.kr/health/index.do"
+    },
+    "부산 해운대구": {
+      "name": "부산 해운대구",
+      "domain": "www.haeundae.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "예비부모·임산부 건강관리",
+          "url": "https://www.haeundae.go.kr/health/index.do?menuCd=DOM_000000804001001000",
+          "pattern": "C"
+        },
+        {
+          "text": "청소년 산모 임신출산 의료비 지원사업",
+          "url": "https://www.haeundae.go.kr/health/index.do?menuCd=DOM_000000804001002000",
+          "pattern": "C"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원사업",
+          "url": "https://www.haeundae.go.kr/health/index.do?menuCd=DOM_000000804001003000",
+          "pattern": "C"
+        },
+        {
+          "text": "산모신생아건강관리지원사업",
+          "url": "https://www.haeundae.go.kr/health/index.do?menuCd=DOM_000000804001006000",
+          "pattern": "C"
+        }
+      ],
+      "accessed_url": "https://www.haeundae.go.kr/health/index.do"
+    },
+    "부산 연제구": {
+      "name": "부산 연제구",
+      "domain": "www.yeonje.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부건강관리사업",
+          "url": "https://www.yeonje.go.kr/health/contents.do?mId=0216000000",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아건강관리지원사업",
+          "url": "https://www.yeonje.go.kr/health/contents.do?mId=0217000000",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험임산부 의료비지원사업",
+          "url": "https://www.yeonje.go.kr/health/contents.do?mId=0219000000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부건강관리사업",
+          "url": "https://www.yeonje.go.kr/health/contents.do?mId=0216000000",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아건강관리지원사업",
+          "url": "https://www.yeonje.go.kr/health/main.do#!",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모신생아건강관리",
+          "url": "https://www.yeonje.go.kr/health/contents.do?mId=0217010000",
+          "pattern": "A"
+        },
+        {
+          "text": "부산시 산모신생아건강관리",
+          "url": "https://www.yeonje.go.kr/health/contents.do?mId=0217020000",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험임산부 의료비지원사업",
+          "url": "https://www.yeonje.go.kr/health/contents.do?mId=0219000000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 수유부",
+          "url": "https://www.yeonje.go.kr/health/contents.do?mId=0403020300",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부영양관리",
+          "url": "https://www.yeonje.go.kr/health/contents.do?mId=0603030000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 및 영유아영양플러스",
+          "url": "https://www.yeonje.go.kr/health/contents.do?mId=0409000000",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.yeonje.go.kr/health/main.do"
+    },
+    "부산 강서구": {
+      "name": "부산 강서구",
+      "domain": "www.bsgangseo.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.bsgangseo.go.kr/health/contents.do?mid=0304000000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 및 영유아 관리",
+          "url": "https://www.bsgangseo.go.kr/health/contents.do?mid=0304010000",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아 건강관리 지원사업",
+          "url": "https://www.bsgangseo.go.kr/health/contents.do?mid=0304050000",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험임산부 의료비지원사업",
+          "url": "https://www.bsgangseo.go.kr/health/contents.do?mid=0310040000",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년산모 의료비지원사업",
+          "url": "https://www.bsgangseo.go.kr/health/contents.do?mid=0310100000",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.bsgangseo.go.kr/health/main.do"
+    },
+    "부산 금정구": {
+      "name": "부산 금정구",
+      "domain": "www.geumjeong.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000503003000000",
+          "pattern": "C"
+        },
+        {
+          "text": "임산부/영유아 건강관리사업",
+          "url": "https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000503003001000",
+          "pattern": "C"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000503003010000",
+          "pattern": "C"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비 지원",
+          "url": "https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000503003018000",
+          "pattern": "C"
+        },
+        {
+          "text": "산모/신생아 건강관리사지원사업",
+          "url": "https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000503003002000",
+          "pattern": "C"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000503003000000",
+          "pattern": "C"
+        },
+        {
+          "text": "임산부/영유아 건강관리사업",
+          "url": "https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000503003001000",
+          "pattern": "C"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000503003010000",
+          "pattern": "C"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비 지원",
+          "url": "https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000503003018000",
+          "pattern": "C"
+        },
+        {
+          "text": "산모/신생아 건강관리사지원사업",
+          "url": "https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000503003002000",
+          "pattern": "C"
+        },
+        {
+          "text": "모자보건사업산모/영유아등 건강관리사업",
+          "url": "https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000503003001000",
+          "pattern": "C"
+        }
+      ],
+      "accessed_url": "https://www.geumjeong.go.kr/health/index.do"
+    },
+    "부산 서구": {
+      "name": "부산 서구",
+      "domain": "www.bsseogu.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.bsseogu.go.kr/health/index.bsseogu?menuCd=DOM_000000404007000000",
+          "pattern": "C"
+        },
+        {
+          "text": "임산부 및 영유아 건강관리",
+          "url": "https://www.bsseogu.go.kr/health/index.bsseogu?menuCd=DOM_000000404007001000",
+          "pattern": "C"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원",
+          "url": "https://www.bsseogu.go.kr/health/index.bsseogu?menuCd=DOM_000000404007006000",
+          "pattern": "C"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.bsseogu.go.kr/health/index.bsseogu?menuCd=DOM_000000404007008000",
+          "pattern": "C"
+        },
+        {
+          "text": "청소년산모 임신출산 의료비 지원",
+          "url": "https://www.bsseogu.go.kr/health/index.bsseogu?menuCd=DOM_000000404007009000",
+          "pattern": "C"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.bsseogu.go.kr/index.bsseogu?menuCd=DOM_000000404007000000",
+          "pattern": "C"
+        },
+        {
+          "text": "임산부 및 영유아 건강관리",
+          "url": "https://www.bsseogu.go.kr/index.bsseogu?menuCd=DOM_000000404007001000",
+          "pattern": "C"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원",
+          "url": "https://www.bsseogu.go.kr/index.bsseogu?menuCd=DOM_000000404007006000",
+          "pattern": "C"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.bsseogu.go.kr/index.bsseogu?menuCd=DOM_000000404007008000",
+          "pattern": "C"
+        },
+        {
+          "text": "청소년산모 임신출산 의료비 지원",
+          "url": "https://www.bsseogu.go.kr/index.bsseogu?menuCd=DOM_000000404007009000",
+          "pattern": "C"
+        },
+        {
+          "text": "산모신생아건강관리",
+          "url": "https://www.bsseogu.go.kr/health/index.bsseogu?menuCd=DOM_000000404004004000",
+          "pattern": "C"
+        },
+        {
+          "text": "임산부건강관리",
+          "url": "https://www.bsseogu.go.kr/health/index.bsseogu?menuCd=DOM_000000404007001000",
+          "pattern": "C"
+        }
+      ],
+      "accessed_url": "https://www.bsseogu.go.kr/health/index.do"
+    },
+    "부산 사상구": {
+      "name": "부산 사상구",
+      "domain": "www.sasang.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.sasang.go.kr/health/index.sasang?menuCd=DOM_000000404003000000",
+          "pattern": "C"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.sasang.go.kr/health/index.sasang?menuCd=DOM_000000404003000000",
+          "pattern": "C"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.sasang.go.kr/health/index.sasang?menuCd=DOM_000000404003001000",
+          "pattern": "C"
+        },
+        {
+          "text": "임산부 건강관리",
+          "url": "https://www.sasang.go.kr/health/index.sasang?menuCd=DOM_000000404003001001",
+          "pattern": "C"
+        },
+        {
+          "text": "산모·신생아건강관리 지원사업",
+          "url": "https://www.sasang.go.kr/health/index.sasang?menuCd=DOM_000000404003003000",
+          "pattern": "C"
+        }
+      ],
+      "accessed_url": "https://www.sasang.go.kr/health/index.do"
+    },
+    "대구 중구": {
+      "name": "대구 중구",
+      "domain": "jung.daegu.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "대구 동구": {
+      "name": "대구 동구",
+      "domain": "dong.daegu.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://dong.daegu.kr/health/contents.do?mid=0408000000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 등록관리",
+          "url": "https://dong.daegu.kr/health/contents.do?mid=0408010300",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비 지원",
+          "url": "https://dong.daegu.kr/health/contents.do?mid=0408010400",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://dong.daegu.kr/health/contents.do?mid=0408010500",
+          "pattern": "A"
+        },
+        {
+          "text": "임신출산육아 프로그램",
+          "url": "https://dong.daegu.kr/health/contents.do?mid=0408010600",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아 건강관리 지원",
+          "url": "https://dong.daegu.kr/health/contents.do?mid=0408020400",
+          "pattern": "A"
+        },
+        {
+          "text": "대구형 산모건강관리사 파견",
+          "url": "https://dong.daegu.kr/health/contents.do?mid=0408020500",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://dong.daegu.kr/health/main.do"
+    },
+    "대구 남구": {
+      "name": "대구 남구",
+      "domain": "nam.daegu.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부 건강관리사업",
+          "url": "https://nam.daegu.kr/health/index.do?menu_id=00001374",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "출산지원사업",
+          "url": "https://nam.daegu.kr/health/index.do?menu_id=00001377",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "고위험 임산부 의료비지원",
+          "url": "https://nam.daegu.kr/health/index.do?menu_id=00001379",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 건강관리사업 민원서식",
+          "url": "https://nam.daegu.kr/health/index.do?menu_id=00204821",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "출산지원사업 민원서식",
+          "url": "https://nam.daegu.kr/health/index.do?menu_id=00204822",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 건강관리사업",
+          "url": "https://nam.daegu.kr/health/index.do?menu_id=00001374",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 등록관리",
+          "url": "https://nam.daegu.kr/health/index.do?menu_id=00001640",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "청소년 산모 임신출산지원",
+          "url": "https://nam.daegu.kr/health/index.do?menu_id=00001644",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부와 영유아를 위한 건강도서실 운영",
+          "url": "https://nam.daegu.kr/health/index.do?menu_id=00001647",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "출산지원사업",
+          "url": "https://nam.daegu.kr/health/index.do?menu_id=00001377",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모신생아 건강관리 지원사업",
+          "url": "https://nam.daegu.kr/health/index.do?menu_id=00205054",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "대구형 산모건강관리사 파견사업",
+          "url": "https://nam.daegu.kr/health/index.do?menu_id=00205055",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 부부 백일해 및 임신준비여성 풍진 예방접종 사업",
+          "url": "https://nam.daegu.kr/health/index.do?menu_id=00205053",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "고위험 임산부 의료비지원",
+          "url": "https://nam.daegu.kr/health/index.do?menu_id=00001379",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "출산지원사업",
+          "url": "https://nam.daegu.kr/health/index.do?menu_id=00205021",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://nam.daegu.kr/health/index.do"
+    },
+    "대구 북구": {
+      "name": "대구 북구",
+      "domain": "buk.daegu.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.buk.daegu.kr/code404.jsp;JSESSIONID=069352CE923B0328BEA2B2E729C10CBB.tomcat1"
+    },
+    "부산 기장군": {
+      "name": "부산 기장군",
+      "domain": "www.gijang.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.gijang.go.kr/health/index.gijang?menuCd=DOM_000000402001001000",
+          "pattern": "C"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.gijang.go.kr/health/index.gijang?menuCd=DOM_000000402001001001",
+          "pattern": "C"
+        },
+        {
+          "text": "산모·신생아건강관리 지원사업",
+          "url": "https://www.gijang.go.kr/health/index.gijang?menuCd=DOM_000000402001002002",
+          "pattern": "C"
+        }
+      ],
+      "accessed_url": "https://www.gijang.go.kr/health/index.do"
+    },
+    "대구 수성구": {
+      "name": "대구 수성구",
+      "domain": "suseong.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.suseong.kr/health/index.do?menu_id=00000871",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.suseong.kr/health/index.do?menu_id=00000871",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모 신생아 건강관리 지원사업",
+          "url": "https://www.suseong.kr/health/index.do?menu_id=00000906",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "대구형 산모건강관리사 파견사업",
+          "url": "https://www.suseong.kr/health/index.do?menu_id=00041262",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "고위험임산부의료비지원",
+          "url": "https://www.suseong.kr/health/index.do?menu_id=00000937",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비 지원",
+          "url": "https://www.suseong.kr/health/index.do?menu_id=00000940",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "2026년 수성구보건소 모자보건사업 기간제근로자 최종",
+          "url": "https://www.suseong.kr/health/index.do?menu_id=00000812&menu_link=/icms/bbs/selectBoardArticle.do&bbsId=BBSMSTR_000000000064&nttId=137020&bbsTyCode=BBST03&bbsAttrbCode=BBSA03",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.suseong.kr/health/index.do"
+    },
+    "인천 중구": {
+      "name": "인천 중구",
+      "domain": "www.icjg.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부 건강관리",
+          "url": "https://www.icjg.go.kr/health/index",
+          "pattern": "unknown"
+        },
+        {
+          "text": "산모·신생아 건강관리사지원",
+          "url": "https://www.icjg.go.kr/health/index",
+          "pattern": "unknown"
+        },
+        {
+          "text": "산모·신생아 건강관리 본인부담금 지원",
+          "url": "https://www.icjg.go.kr/health/index",
+          "pattern": "unknown"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원사업",
+          "url": "https://www.icjg.go.kr/health/index",
+          "pattern": "unknown"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비 지원",
+          "url": "https://www.icjg.go.kr/health/index",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자건강",
+          "url": "https://www.icjg.go.kr/health/hebz0701c",
+          "pattern": "unknown"
+        },
+        {
+          "text": "임산부 및 배우자 백일해 무료 예방접종 시행2026-01-16",
+          "url": "https://www.icjg.go.kr/health/hecm001b03/282917",
+          "pattern": "unknown"
+        }
+      ],
+      "accessed_url": "https://www.icjg.go.kr/health/index"
+    },
+    "부산 수영구": {
+      "name": "부산 수영구",
+      "domain": "www.suyeong.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.suyeong.go.kr/health/index.suyeong?menuCd=DOM_000001504007000000",
+          "pattern": "C"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.suyeong.go.kr/health/index.suyeong?menuCd=DOM_000001504007000000",
+          "pattern": "C"
+        },
+        {
+          "text": "임산부 및 예비·신혼부부 지원사업",
+          "url": "https://www.suyeong.go.kr/health/index.suyeong?menuCd=DOM_000001504007001000",
+          "pattern": "C"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원사업",
+          "url": "https://www.suyeong.go.kr/health/index.suyeong?menuCd=DOM_000001504007003000",
+          "pattern": "C"
+        }
+      ],
+      "accessed_url": "https://www.suyeong.go.kr/health/index.do"
+    },
+    "대구 달성군": {
+      "name": "대구 달성군",
+      "domain": "dalseong.daegu.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://dalseong.daegu.kr/code404.jsp;jsessionid=43316D7C2433AC8DF84620DB3285EB48.tomcat2"
+    },
+    "인천 연수구": {
+      "name": "인천 연수구",
+      "domain": "www.yeonsu.go.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.yeonsu.go.kr/share/error.asp"
+    },
+    "인천 동구": {
+      "name": "인천 동구",
+      "domain": "www.icdonggu.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "출산장려지원",
+          "url": "https://www.icdonggu.go.kr/main/area/welfare/family_childbirth.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "영유아복지",
+          "url": "https://www.icdonggu.go.kr/main/area/welfare/infantse_fee.jsp",
+          "pattern": "E"
+        }
+      ],
+      "search_depth": 3,
+      "accessed_url": "https://www.icdonggu.go.kr/",
+      "found_at_depth": 1
+    },
+    "인천 부평구": {
+      "name": "인천 부평구",
+      "domain": "www.icbp.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.icbp.go.kr/clinic/business/mother.jsp",
+          "pattern": "E"
+        }
+      ],
+      "accessed_url": "https://www.icbp.go.kr/clinic/main.do"
+    },
+    "인천 남동구": {
+      "name": "인천 남동구",
+      "domain": "www.namdong.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임신 출산 진료비",
+          "url": "https://www.namdong.go.kr/welfare/visitors/income/fee.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임신출산육아서비스 종합안내",
+          "url": "https://www.namdong.go.kr/welfare/visitors/birth/parentinfo.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "인천시 임산부 교통비 지원",
+          "url": "https://www.namdong.go.kr/welfare/visitors/birth/transportation.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임신 출산 진료비",
+          "url": "https://www.namdong.go.kr/welfare/visitors/income/fee.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임신출산육아서비스 종합안내",
+          "url": "https://www.namdong.go.kr/welfare/visitors/birth/parentinfo.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "인천시 임산부 교통비 지원",
+          "url": "https://www.namdong.go.kr/welfare/visitors/birth/transportation.jsp",
+          "pattern": "E"
+        }
+      ],
+      "accessed_url": "https://www.namdong.go.kr/welfare/visitors/multiple/family.jsp"
+    },
+    "인천 계양구": {
+      "name": "인천 계양구",
+      "domain": "www.gyeyang.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "영유아 보육지원",
+          "url": "https://www.gyeyang.go.kr/open_content/welfare/nursery/rearing/allowance.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "아이조아계양(출산정보통합포털)",
+          "url": "https://www.gyeyang.go.kr/childbirth",
+          "pattern": "unknown"
+        },
+        {
+          "text": "영유아 보육지원",
+          "url": "https://www.gyeyang.go.kr/open_content/welfare/nursery/rearing/allowance.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "아이조아계양(출산정보통합포털)",
+          "url": "https://www.gyeyang.go.kr/childbirth",
+          "pattern": "unknown"
+        }
+      ],
+      "search_depth": 3,
+      "accessed_url": "https://www.gyeyang.go.kr/open_content/main/",
+      "found_at_depth": 1
+    },
+    "인천 미추홀구": {
+      "name": "인천 미추홀구",
+      "domain": "www.michuhol.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부",
+          "url": "https://www.michuhol.go.kr/clinic/content.do?sq=520",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "영유아",
+          "url": "https://www.michuhol.go.kr/clinic/content.do?sq=527",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모·신생아",
+          "url": "https://www.michuhol.go.kr/clinic/content.do?sq=538",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.michuhol.go.kr/clinic/content.do?sq=616",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부",
+          "url": "https://www.michuhol.go.kr/clinic/content.do?sq=520",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "영유아",
+          "url": "https://www.michuhol.go.kr/clinic/content.do?sq=527",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모·신생아",
+          "url": "https://www.michuhol.go.kr/clinic/content.do?sq=538",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부",
+          "url": "https://www.michuhol.go.kr/clinic/content.do?sq=520",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "영유아",
+          "url": "https://www.michuhol.go.kr/clinic/content.do?sq=527",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모·신생아",
+          "url": "https://www.michuhol.go.kr/clinic/content.do?sq=538",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.michuhol.go.kr/clinic/content.do?sq=616",
+          "pattern": "A_variant"
+        }
+      ],
+      "search_depth": 3,
+      "accessed_url": "https://www.michuhol.go.kr/clinic/main.do",
+      "found_at_depth": 2,
+      "via_menu": "보건소"
+    },
+    "인천 강화군": {
+      "name": "인천 강화군",
+      "domain": "www.ganghwa.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.ganghwa.go.kr/open_content/clinic/business/prepare.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임산부 건강관리사업",
+          "url": "https://www.ganghwa.go.kr/open_content/clinic/business/pregnant.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "영유아 건강관리사업",
+          "url": "https://www.ganghwa.go.kr/open_content/clinic/business/infants.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "모자건강교실",
+          "url": "https://www.ganghwa.go.kr/open_content/clinic/open/mother.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.ganghwa.go.kr/open_content/clinic/business/prepare.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "모자건강교실",
+          "url": "https://www.ganghwa.go.kr/open_content/clinic/open/mother.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "영유아건강관리",
+          "url": "https://www.ganghwa.go.kr/open_content/clinic/business/infants.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임산부건강관리",
+          "url": "https://www.ganghwa.go.kr/open_content/clinic/business/pregnant.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "모자건강교실",
+          "url": "https://www.ganghwa.go.kr/open_content/clinic/open/mother.jsp",
+          "pattern": "E"
+        }
+      ],
+      "search_depth": 3,
+      "accessed_url": "https://www.ganghwa.go.kr/open_content/clinic/",
+      "found_at_depth": 2,
+      "via_menu": "보건소"
+    },
+    "인천 서구": {
+      "name": "인천 서구",
+      "domain": "www.seo.incheon.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.seo.incheon.kr/open_content/clinic/",
+          "pattern": "unknown"
+        },
+        {
+          "text": "임산부 등록·관리사업",
+          "url": "https://www.seo.incheon.kr/open_content/clinic/business/mathernal_child/pregnancy.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원사업",
+          "url": "https://www.seo.incheon.kr/open_content/clinic/business/mathernal_child/highrisk.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비 지원사업",
+          "url": "https://www.seo.incheon.kr/open_content/clinic/business/mathernal_child/youth.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원사업",
+          "url": "https://www.seo.incheon.kr/open_content/clinic/business/mathernal_child/healthcare.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "산모·신생아 건강관리서비스 본인부담금 지원사업",
+          "url": "https://www.seo.incheon.kr/open_content/clinic/business/mathernal_child/healthservice.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임신출산육아정보",
+          "url": "https://www.childcare.go.kr",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.seo.incheon.kr/open_content/clinic/business/mathernal_child/pregnancy.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임산부 등록·관리사업",
+          "url": "https://www.seo.incheon.kr/open_content/clinic/business/mathernal_child/pregnancy.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원사업",
+          "url": "https://www.seo.incheon.kr/open_content/clinic/business/mathernal_child/highrisk.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비 지원사업",
+          "url": "https://www.seo.incheon.kr/open_content/clinic/business/mathernal_child/youth.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원사업",
+          "url": "https://www.seo.incheon.kr/open_content/clinic/business/mathernal_child/healthcare.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "산모·신생아 건강관리서비스 본인부담금 지원사업",
+          "url": "https://www.seo.incheon.kr/open_content/clinic/business/mathernal_child/healthservice.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임신출산육아정보",
+          "url": "https://www.childcare.go.kr",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.seo.incheon.kr/open_content/clinic/business/mathernal_child/pregnancy.jsp",
+          "pattern": "E"
+        }
+      ],
+      "accessed_url": "https://www.seo.incheon.kr/open_content/clinic/"
+    },
+    "광주 동구": {
+      "name": "광주 동구",
+      "domain": "www.donggu.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "광주 서구": {
+      "name": "광주 서구",
+      "domain": "www.seogu.gwangju.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.seogu.gwangju.kr/health/main.do"
+    },
+    "광주 북구": {
+      "name": "광주 북구",
+      "domain": "www.bukgu.gwangju.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "광주 남구": {
+      "name": "광주 남구",
+      "domain": "www.namgu.gwangju.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.namgu.gwangju.kr/menu.es?mid=a81002010000",
+          "pattern": "F"
+        },
+        {
+          "text": "임산부 관리",
+          "url": "https://www.namgu.gwangju.kr/menu.es?mid=a81002010000",
+          "pattern": "F"
+        },
+        {
+          "text": "영유아 관리",
+          "url": "https://www.namgu.gwangju.kr/menu.es?mid=a81002030000",
+          "pattern": "F"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.namgu.gwangju.kr/menu.es?mid=a81002010000",
+          "pattern": "F"
+        },
+        {
+          "text": "임산부 관리",
+          "url": "https://www.namgu.gwangju.kr/menu.es?mid=a81002010000",
+          "pattern": "F"
+        },
+        {
+          "text": "영유아 관리",
+          "url": "https://www.namgu.gwangju.kr/menu.es?mid=a81002030000",
+          "pattern": "F"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.namgu.gwangju.kr/menu.es?mid=a81002000000",
+          "pattern": "F"
+        },
+        {
+          "text": "2025년 광주광역시 남구보건소 모자보건사업 기..",
+          "url": "https://www.namgu.gwangju.kr/board.es?mid=a80405000000&bid=0354&list_no=82&act=view",
+          "pattern": "unknown"
+        },
+        {
+          "text": "2025년 광주광역시 남구보건소 모자보건사업 기..",
+          "url": "https://www.namgu.gwangju.kr/board.es?mid=a80405000000&bid=0354&list_no=81&act=view",
+          "pattern": "unknown"
+        }
+      ],
+      "search_depth": 3,
+      "accessed_url": "https://www.namgu.gwangju.kr/index.es?sid=a8",
+      "found_at_depth": 2,
+      "via_menu": "보건소"
+    },
+    "광주 광산구": {
+      "name": "광주 광산구",
+      "domain": "www.gwangsan.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.gwangsan.go.kr/health/contentsView.do?pageId=health46",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 건강관리",
+          "url": "https://www.gwangsan.go.kr/health/contentsView.do?pageId=health46",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.gwangsan.go.kr/health/contentsView.do?pageId=health46",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 건강관리",
+          "url": "https://www.gwangsan.go.kr/health/contentsView.do?pageId=health46",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.gwangsan.go.kr/health/contentsView.do?pageId=health46",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.gwangsan.go.kr/health/main.do"
+    },
+    "인천 옹진군": {
+      "name": "인천 옹진군",
+      "domain": "www.ongjin.go.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.ongjin.go.kr/error/error.html"
+    },
+    "울산 남구": {
+      "name": "울산 남구",
+      "status": "found",
+      "urls": [
+        {
+          "text": "- 임산부·영유아사업",
+          "url": "http://www.ulsannamgu.go.kr/health/business/Infant.jsp",
+          "pattern": "E"
+        }
+      ],
+      "method": "playwright",
+      "total_links": 78,
+      "found_at_depth": 1
+    },
+    "대전시": {
+      "name": "대전시",
+      "domain": "www.daejeon.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "산모지원",
+          "url": "https://www.daejeon.go.kr/djbaby/index.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "출산지원",
+          "url": "https://www.daejeon.go.kr/djbaby/contentsHtmlView.do?menuSeq=7391",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임신·출산 행복꾸러미",
+          "url": "https://www.daejeon.go.kr/djbaby/index.do",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.daejeon.go.kr/drh/DrhContentsHtmlView.do?menuSeq=1848"
+    },
+    "울산 동구": {
+      "name": "울산 동구",
+      "domain": "www.donggu.ulsan.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "고위험임산부 의료비 지원사업",
+          "url": "https://www.donggu.ulsan.kr/health/contents/contents.do?mId=2030600",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부영유아사업",
+          "url": "https://www.donggu.ulsan.kr/health/contents/contents.do?mId=2041600",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부등록 관리사업",
+          "url": "https://www.donggu.ulsan.kr/health/contents/contents.do?mId=2040200",
+          "pattern": "A"
+        },
+        {
+          "text": "산모・신생아 건강관리지원사업",
+          "url": "https://www.donggu.ulsan.kr/health/contents/contents.do?mId=2040900",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 및 영유아 건강교실",
+          "url": "https://www.donggu.ulsan.kr/health/contents/contents.do?mId=2041400",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험임산부 의료비 지원사업",
+          "url": "https://www.donggu.ulsan.kr/health/contents/contents.do?mId=2030600",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부영유아사업",
+          "url": "https://www.donggu.ulsan.kr/health/contents/contents.do?mId=2041600",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부등록 관리사업",
+          "url": "https://www.donggu.ulsan.kr/health/contents/contents.do?mId=2040200",
+          "pattern": "A"
+        },
+        {
+          "text": "산모・신생아 건강관리지원사업",
+          "url": "https://www.donggu.ulsan.kr/health/contents/contents.do?mId=2040900",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 및 영유아 건강교실",
+          "url": "https://www.donggu.ulsan.kr/health/contents/contents.do?mId=2041400",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부영유아사업",
+          "url": "https://www.donggu.ulsan.kr/health/contents/contents.do?mId=2040100",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.donggu.ulsan.kr/health/main.do"
+    },
+    "울산 중구": {
+      "name": "울산 중구",
+      "domain": "www.junggu.ulsan.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임신·출산·양육 지원사업",
+          "url": "https://www.junggu.ulsan.kr/health/index.ulsan?menuCd=DOM_000000705002001000",
+          "pattern": "C"
+        },
+        {
+          "text": "임신·출산·양육 지원사업",
+          "url": "https://www.junggu.ulsan.kr/health/index.ulsan?menuCd=DOM_000000705002001000",
+          "pattern": "C"
+        },
+        {
+          "text": "[3월 임산부 무료 교육 프로그램 개강 안내]",
+          "url": "https://www.junggu.ulsan.kr/board/view.ulsan?boardId=BBS_0000071&contentsSid=28&paging=ok&startPage=1&dataSid=719473&menuCd=DOM_000000701007000000",
+          "pattern": "C"
+        },
+        {
+          "text": "[3월 임산부 무료 교육 프로그램 개강 안내]     ※ 신청: 2월 13일(금) 오전 9시부터 선착순 전화접수(052-290-4946, 4942)※ 문의사항은 052-290-4946      만들기 태교교실>- 매주 화요일 오후 2시~4시- 강의: 배냇저고리(3/3), 딸랑이(3/10), 애착인형(3/17), 손싸개(3/24)- 장소: 중구보건소 3층 보건교육실- 준비물: 가위, 가방      임산부 모유수유&아기마사지 교실>- 3/11 수요일 오후 2시~4시(월1회)- 장소: 중구보건소 3층 보건교육실​​임산부 신체활동 교실>- 매주 목요일 오후 2시~3시(3/5. 3/12. 3/19, 3/26)- 장소: 중구보건소 지하1층 체조실- 준비물: 편안한 복장,머리끈     ※프로그램은 11월까지 매월 진행 예정입니다.(신체활동은 7~8월 휴강)",
+          "url": "https://www.junggu.ulsan.kr/board/view.ulsan?boardId=BBS_0000071&contentsSid=28&paging=ok&startPage=1&dataSid=719473&menuCd=DOM_000000701007000000",
+          "pattern": "C"
+        }
+      ],
+      "accessed_url": "https://www.junggu.ulsan.kr/health/index.do"
+    },
+    "대구 달서구": {
+      "name": "대구 달서구",
+      "domain": "dalseo.daegu.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "출산축하금 지원",
+          "url": "https://dalseo.daegu.kr/index.do?menu_id=00004494",
+          "pattern": "A_variant"
+        }
+      ],
+      "search_depth": 3,
+      "accessed_url": "https://dalseo.daegu.kr/",
+      "found_at_depth": 1
+    },
+    "세종시": {
+      "name": "세종시",
+      "domain": "www.sejong.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부 및 영유아 영양플러스",
+          "url": "https://www.sejong.go.kr/health/sub03_02_09.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "출산지원사업",
+          "url": "https://www.sejong.go.kr/health/sub03_04_02.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_02.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_09.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_10.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_12.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 및 영유아 영양플러스",
+          "url": "https://www.sejong.go.kr/health/sub03_02_09.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "출산지원사업",
+          "url": "https://www.sejong.go.kr/health/sub03_04_02.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_02.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_09.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_10.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_12.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 및 영유아 영양플러스",
+          "url": "https://www.sejong.go.kr/health/sub03_02_09.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "출산지원사업",
+          "url": "https://www.sejong.go.kr/health/sub03_04_02.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_02.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_09.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_10.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_12.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 및 영유아 영양플러스",
+          "url": "https://www.sejong.go.kr/health/sub03_02_09.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "출산지원사업",
+          "url": "https://www.sejong.go.kr/health/sub03_04_02.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_02.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_09.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_10.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비 지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_12.do;jsessionid=53F9DD8464DF3158B614F14D5358A872.portal1",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "출산지원",
+          "url": "https://www.sejong.go.kr/health/sub03_04_02.do",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.sejong.go.kr/health/main.do"
+    },
+    "수원시": {
+      "name": "수원시",
+      "status": "found",
+      "urls": [
+        {
+          "text": "출산지원제도",
+          "url": "https://www.suwon.go.kr/sw-www/deptHome/dep_welfare/welfare07/welfare07-01/welfare07-01-01.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임신·출산",
+          "url": "https://www.suwon.go.kr/sw-www/deptHome/dep_welfare/welfare14/welfare14-01/welfare14-01-02.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임신·출산 진료비 지원",
+          "url": "https://www.suwon.go.kr/sw-www/deptHome/dep_welfare/welfare14/welfare14-01/welfare14-01-02.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "난임부부 시술비 지원",
+          "url": "https://www.suwon.go.kr/sw-www/deptHome/dep_welfare/welfare14/welfare14-01/welfare14-01-03.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.suwon.go.kr/sw-www/deptHome/dep_welfare/welfare14/welfare14-01/welfare14-01-04.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임산부 및 예비·신혼부부 검사 지원",
+          "url": "https://www.suwon.go.kr/sw-www/deptHome/dep_welfare/welfare14/welfare14-01/welfare14-01-05.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임산부 우울 선별검사 지원",
+          "url": "https://www.suwon.go.kr/sw-www/deptHome/dep_welfare/welfare14/welfare14-01/welfare14-01-06.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원",
+          "url": "https://www.suwon.go.kr/sw-www/deptHome/dep_welfare/welfare14/welfare14-01/welfare14-01-09.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "장애인가정 출산지원금",
+          "url": "https://www.suwon.go.kr/sw-www/deptHome/dep_welfare/welfare14/welfare14-01/welfare14-01-11.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "여성장애인 출산지원금",
+          "url": "https://www.suwon.go.kr/sw-www/deptHome/dep_welfare/welfare14/welfare14-01/welfare14-01-12.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "교통약자이동지원센터 운영(임산부 이용)",
+          "url": "https://www.suwon.go.kr/sw-www/deptHome/dep_welfare/welfare14/welfare14-01/welfare14-01-18.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "경기임산부 친환경 농산물 지원사업",
+          "url": "https://www.suwon.go.kr/sw-www/deptHome/dep_welfare/welfare14/welfare14-01/welfare14-01-20.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "영유아",
+          "url": "https://www.suwon.go.kr/sw-www/deptHome/dep_welfare/welfare14/welfare14-02/welfare14-02-01.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임신출산장려지원",
+          "url": "https://www.suwon.go.kr/sw-www/deptHome/dep_welfare/welfare07/welfare07-01/welfare07-01-01.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임신·출산",
+          "url": "https://www.suwon.go.kr/welfare_match/index.jsp#sec-0",
+          "pattern": "E"
+        },
+        {
+          "text": "영유아",
+          "url": "https://www.suwon.go.kr/welfare_match/index.jsp#sec-1",
+          "pattern": "E"
+        }
+      ],
+      "method": "playwright",
+      "total_links": 1500,
+      "found_at_depth": 1
+    },
+    "고양시": {
+      "name": "고양시",
+      "domain": "www.goyang.go.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.goyang.go.kr/health/main.do"
+    },
+    "울산 울주군": {
+      "name": "울산 울주군",
+      "domain": "www.ulju.ulsan.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "2026년 남부통합보건지소 '임산부 건강교실' 참여자 모집",
+          "url": "https://www.ulju.ulsan.kr/health/bbs/view.do?mId=0401000000&ptIdx=203&bIdx=62635",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "2026년 '안전한 출산지원 건강교실' 계획",
+          "url": "https://www.ulju.ulsan.kr/health/bbs/view.do?mId=0401000000&ptIdx=203&bIdx=62576",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "예비부모 임산부 건강검진",
+          "url": "https://www.ulju.ulsan.kr/health/contents.do?mId=0302030000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 건강관리",
+          "url": "https://www.ulju.ulsan.kr/health/contents.do?mId=0303010000",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년산모 임신ㆍ출산 의료비 지원",
+          "url": "https://www.ulju.ulsan.kr/health/contents.do?mId=0305060000",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.ulju.ulsan.kr/health/main.do"
+    },
+    "성남시": {
+      "name": "성남시",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.seongnam.go.kr/health/1002087/11376/contents.do",
+          "pattern": "A"
+        },
+        {
+          "text": "산전산후관리",
+          "url": "https://www.seongnam.go.kr/health/1002087/11376/contents.do",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부등록관리사업",
+          "url": "https://www.seongnam.go.kr/health/1002088/11377/contents.do",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부자동차표지발급",
+          "url": "https://www.seongnam.go.kr/health/1002090/11379/contents.do",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부교육프로그램",
+          "url": "https://www.seongnam.go.kr/health/1002091/11380/contents.do",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부지원",
+          "url": "https://www.seongnam.go.kr/health/1002092/11381/contents.do",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년산모 임신출산 의료비지원",
+          "url": "https://www.seongnam.go.kr/health/1002092/11381/contents.do",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험임산부 의료비지원",
+          "url": "https://www.seongnam.go.kr/health/1002093/11382/contents.do",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아 건강관리지원",
+          "url": "https://www.seongnam.go.kr/health/1002094/11383/contents.do",
+          "pattern": "A"
+        },
+        {
+          "text": "임신·출산 진료비지원",
+          "url": "https://www.seongnam.go.kr/health/1002096/11385/contents.do",
+          "pattern": "A"
+        },
+        {
+          "text": "영유아지원",
+          "url": "https://www.seongnam.go.kr/health/1002098/11387/contents.do",
+          "pattern": "A"
+        },
+        {
+          "text": "신생아 난청검사·보청기 지원",
+          "url": "https://www.seongnam.go.kr/health/1002098/11387/contents.do",
+          "pattern": "A"
+        },
+        {
+          "text": "영유아발달정밀검사비지원",
+          "url": "https://www.seongnam.go.kr/health/1002287/11494/contents.do",
+          "pattern": "A"
+        },
+        {
+          "text": "난임지원",
+          "url": "https://www.seongnam.go.kr/health/1002508/30554/bbsList.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모신생아건강관리기관",
+          "url": "https://www.seongnam.go.kr/health/1001995/30448/bbsList.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모신생아\n건강관리기관",
+          "url": "https://www.seongnam.go.kr/health/1001995/30448/bbsList.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "2026년 임산부 출산교실 대상자 모집 안내(선착순)",
+          "url": "https://www.seongnam.go.kr/health/1001402/30328/bbsView.do?idx=379647",
+          "pattern": "A_variant"
+        }
+      ],
+      "method": "playwright",
+      "total_links": 232,
+      "found_at_depth": 1
+    },
+    "부천시": {
+      "name": "부천시",
+      "status": "found",
+      "urls": [
+        {
+          "text": "영유아·아동",
+          "url": "https://www.bucheon.go.kr/site/homepage/menu/viewMenu?menuid=148006003007001",
+          "pattern": "unknown"
+        },
+        {
+          "text": "임신출산",
+          "url": "https://www.bucheon.go.kr/site/program/board/basicboard/list?boardtypeid=28004&menuid=148006011&boardtext1=01",
+          "pattern": "unknown"
+        },
+        {
+          "text": "영유아",
+          "url": "https://www.bucheon.go.kr/site/program/board/basicboard/list?boardtypeid=28004&menuid=148006011&boardtext1=02",
+          "pattern": "unknown"
+        }
+      ],
+      "method": "playwright",
+      "total_links": 851,
+      "found_at_depth": 1
+    },
+    "용인시": {
+      "name": "용인시",
+      "domain": "www.yongin.go.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "안산시": {
+      "name": "안산시",
+      "status": "found",
+      "urls": [
+        {
+          "text": "행복출산원스톱서비스",
+          "url": "https://www.ansan.go.kr/www/common/cntnts/selectContents.do?cntnts_id=C0001052",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "출산양육정보",
+          "url": "https://ansan.go.kr/iloveyou",
+          "pattern": "unknown"
+        },
+        {
+          "text": "안산모범음식점",
+          "url": "http://food.ansan.go.kr/",
+          "pattern": "unknown"
+        }
+      ],
+      "method": "playwright",
+      "total_links": 672,
+      "found_at_depth": 1
+    },
+    "안양시": {
+      "name": "안양시",
+      "domain": "www.anyang.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.anyang.go.kr/health/contents.do?key=1352",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 지원",
+          "url": "https://www.anyang.go.kr/health/contents.do?key=1343",
+          "pattern": "A"
+        },
+        {
+          "text": "임신·출산 지원",
+          "url": "https://www.anyang.go.kr/health/contents.do?key=1343",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.anyang.go.kr/health/contents.do?key=1345",
+          "pattern": "A"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원사업",
+          "url": "https://www.anyang.go.kr/health/contents.do?key=1351",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.anyang.go.kr/health/sub.do?key=1343",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.anyang.go.kr/health/index.do"
+    },
+    "화성시": {
+      "name": "화성시",
+      "domain": "www.hscity.go.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "평택시": {
+      "name": "평택시",
+      "domain": "www.pyeongtaek.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.pyeongtaek.go.kr/health/contents.do?mid=0302000000",
+          "pattern": "A"
+        },
+        {
+          "text": "신혼부부/임산부관리",
+          "url": "https://www.pyeongtaek.go.kr/health/contents.do?mid=0302010000",
+          "pattern": "A"
+        },
+        {
+          "text": "신혼부부/임산부관리",
+          "url": "https://www.pyeongtaek.go.kr/health/contents.do?mid=0302010000",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.pyeongtaek.go.kr/health/main.do"
+    },
+    "남양주시": {
+      "name": "남양주시",
+      "domain": "www.nyj.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.nyj.go.kr/health/contents.do?key=4601",
+          "pattern": "A"
+        },
+        {
+          "text": "임신·출산지원",
+          "url": "https://www.nyj.go.kr/health/contents.do?key=416",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부등록관리사업",
+          "url": "https://www.nyj.go.kr/health/contents.do?key=416",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험임산부 의료비 지원사업",
+          "url": "https://www.nyj.go.kr/health/contents.do?key=429",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 및 영유아 영양플러스사업",
+          "url": "https://www.nyj.go.kr/health/contents.do?key=417",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아 건강관리 지원사업",
+          "url": "https://www.nyj.go.kr/health/contents.do?key=421",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년산모 임신·출산의료비 지원사업",
+          "url": "https://www.nyj.go.kr/health/contents.do?key=420",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아 건강관리 기관",
+          "url": "https://www.nyj.go.kr/health/contents.do?key=468",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.nyj.go.kr/health/sub.do?key=415",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.nyj.go.kr/health/index.do"
+    },
+    "시흥시": {
+      "name": "시흥시",
+      "domain": "www.siheung.go.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "김포시": {
+      "name": "김포시",
+      "domain": "www.gimpo.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.gimpo.go.kr/health/contents.do?key=2187",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 주차스티커 발급",
+          "url": "https://www.gimpo.go.kr/health/contents.do?key=2194",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 교육",
+          "url": "https://www.gimpo.go.kr/health/contents.do?key=2195",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년 산모 임신/출산 의료비 지원",
+          "url": "https://www.gimpo.go.kr/health/contents.do?key=2192",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 지원",
+          "url": "https://www.gimpo.go.kr/health/contents.do?key=2193",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 무료 기초검사",
+          "url": "https://www.gimpo.go.kr/health/contents.do?key=2188",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아 건강관리 지원사업",
+          "url": "https://www.gimpo.go.kr/health/contents.do?key=2201",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아 건강관리사업 본인부담금 지원",
+          "url": "https://www.gimpo.go.kr/health/contents.do?key=11257",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.gimpo.go.kr/health/index.do"
+    },
+    "의정부시": {
+      "name": "의정부시",
+      "domain": "www.ui4u.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.ui4u.go.kr/health/contents.do?mId=0301000000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부등록관리",
+          "url": "https://www.ui4u.go.kr/health/contents.do?mId=0301010000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부교실",
+          "url": "https://www.ui4u.go.kr/health/contents.do?mId=0301020000",
+          "pattern": "A"
+        },
+        {
+          "text": "산모ㆍ신생아 도우미 지원",
+          "url": "https://www.ui4u.go.kr/health/contents.do?mId=0301040000",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비지원",
+          "url": "https://www.ui4u.go.kr/health/contents.do?mId=0301070000",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년 산모 임신ㆍ출산 의료비 지원",
+          "url": "https://www.ui4u.go.kr/health/contents.do?mId=0301090000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부등록관리",
+          "url": "https://www.ui4u.go.kr/health/contents.do?mId=0301010000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부교실",
+          "url": "https://www.ui4u.go.kr/health/contents.do?mId=0301020000",
+          "pattern": "A"
+        },
+        {
+          "text": "산모ㆍ신생아 도우미 지원",
+          "url": "https://www.ui4u.go.kr/health/contents.do?mId=0301040000",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비지원",
+          "url": "https://www.ui4u.go.kr/health/contents.do?mId=0301070000",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년 산모 임신ㆍ출산 의료비 지원",
+          "url": "https://www.ui4u.go.kr/health/contents.do?mId=0301090000",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.ui4u.go.kr/health/main.do"
+    },
+    "광명시": {
+      "name": "광명시",
+      "domain": "www.gm.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.gm.go.kr/health/index.do#none;",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.gm.go.kr/health/helthBsns/mhrhlHelth/pwnmManage.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "임산부건강관리",
+          "url": "https://www.gm.go.kr/health/helthBsns/mhrhlHelth/pwnmManage.jsp",
+          "pattern": "E"
+        }
+      ],
+      "accessed_url": "https://www.gm.go.kr/health/index.do"
+    },
+    "광주시(경기)": {
+      "name": "광주시(경기)",
+      "domain": "www.gjcity.go.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.gjcity.go.kr/health/main.do"
+    },
+    "파주시": {
+      "name": "파주시",
+      "domain": "www.paju.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부 검사",
+          "url": "https://clinic.paju.go.kr/clinic/clinic_02/clinic_02_04/clinic_02_04_03.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "청소년과 임산부의 음주",
+          "url": "https://clinic.paju.go.kr/clinic/clinic_03/clinic_03_03/clinic_03_03_03.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://clinic.paju.go.kr/clinic/clinic_03/clinic_03_11/clinic_03_11_01/clinic_03_11_01_01.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "모자보건교실",
+          "url": "https://clinic.paju.go.kr/clinic/clinic_03/clinic_03_11/clinic_03_11_05.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "청소년과 임산부의 음주",
+          "url": "https://clinic.paju.go.kr/clinic/clinic_03/clinic_03_03/clinic_03_03_03.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://clinic.paju.go.kr/user/board/BD_board.view.do?seq=20260210161408020&bbsCd=2001&q_ctgCd=1014",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건교실",
+          "url": "https://clinic.paju.go.kr/clinic/clinic_03/clinic_03_11/clinic_03_11_05.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "청소년과 임산부의 음주",
+          "url": "https://clinic.paju.go.kr/clinic/clinic_03/clinic_03_03/clinic_03_03_03.jsp",
+          "pattern": "E"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://clinic.paju.go.kr/user/board/BD_board.view.do?seq=20260210161408020&bbsCd=2001&q_ctgCd=1014",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건교실",
+          "url": "https://clinic.paju.go.kr/clinic/clinic_03/clinic_03_11/clinic_03_11_05.jsp",
+          "pattern": "E"
+        }
+      ],
+      "accessed_url": "https://clinic.paju.go.kr/user/board/BD_board.view.do?seq=20260210161408020&bbsCd=2001&q_ctgCd=1014"
+    },
+    "하남시": {
+      "name": "하남시",
+      "domain": "www.hanam.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.hanam.go.kr/health/contents.do?key=948",
+          "pattern": "A"
+        },
+        {
+          "text": "2026년 상반기 모자보건사업[임신·출산] 안내2026년도 상반기 모자보건사업 [임신·출산] 내용을 붙임과 같이 안내합니다.26-02-10",
+          "url": "https://www.hanam.go.kr/health/selectBbsNttView.do?key=915&bbsNo=109&nttNo=497346",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "'우체국 대한민국 엄마보험' 안내산모의 건강하고 안정적인 출산부터\r\n자녀의 성장 지원을 위한 공익보험입니다.\r\n\r\n- 보험료 전액 지원(무료)\r\n- 보장내용\r\n 1. 10년간 자녀의 희귀질환 ...25-04-10",
+          "url": "https://www.hanam.go.kr/health/selectBbsNttView.do?key=1001&bbsNo=110&nttNo=489515",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모신생아건강관리 지원사업",
+          "url": "https://www.hanam.go.kr/health/contents.do?key=956",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.hanam.go.kr/health/index.do"
+    },
+    "이천시": {
+      "name": "이천시",
+      "domain": "www.icheon.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "생애주기별 - 임신출산자격/생활환경 - 전체,장애인지원혜택 - 건강장애인가정 출산지원금 지원바로가기",
+          "url": "https://www.icheon.go.kr/welfare/contManage/list.do?mid=0100000000&token=1770833328194",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "생애주기별 - 임신출산자격/생활환경 - 전체지원혜택 - 돌봄첫만남 이용권바로가기",
+          "url": "https://www.icheon.go.kr/welfare/contManage/list.do?mid=0100000000&token=1770833328194",
+          "pattern": "A_variant"
+        }
+      ],
+      "search_depth": 3,
+      "accessed_url": "https://www.icheon.go.kr/welfare/contManage/list.do?mid=0100000000&token=1770833328194",
+      "found_at_depth": 2,
+      "via_menu": "맞춤형복지서비스"
+    },
+    "오산시": {
+      "name": "오산시",
+      "domain": "www.osan.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "영유아/보육",
+          "url": "https://www.osan.go.kr/depart/contents.do?mId=0402010000",
+          "pattern": "A"
+        }
+      ],
+      "search_depth": 3,
+      "accessed_url": "https://www.osan.go.kr/main.do",
+      "found_at_depth": 1
+    },
+    "양주시": {
+      "name": "양주시",
+      "domain": "www.yangju.go.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.yangju.go.kr/health/main.do"
+    },
+    "구리시": {
+      "name": "구리시",
+      "domain": "www.guri.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부",
+          "url": "https://www.guri.go.kr/health/contents.do?key=3551",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 구강건강교육",
+          "url": "https://www.guri.go.kr/health/contents.do?key=3551",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 등록",
+          "url": "https://www.guri.go.kr/health/contents.do?key=7819",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 등록관리",
+          "url": "https://www.guri.go.kr/health/contents.do?key=7819",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 의료비 지원사업",
+          "url": "https://www.guri.go.kr/health/contents.do?key=7906",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.guri.go.kr/health/contents.do?key=7906",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년산모 임신 · 출산 의료비 지원사업",
+          "url": "https://www.guri.go.kr/health/contents.do?key=7878",
+          "pattern": "A"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원",
+          "url": "https://www.guri.go.kr/health/contents.do?key=3562",
+          "pattern": "A"
+        },
+        {
+          "text": "예방접종 및 모자보건사업",
+          "url": "https://www.guri.go.kr/health/contents.do?key=1228",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.guri.go.kr/health/selectBbsNttList.do?bbsNo=493&key=1243",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.guri.go.kr/health/index.do"
+    },
+    "군포시": {
+      "name": "군포시",
+      "domain": "www.gunpo.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임신 출산 지원",
+          "url": "https://www.gunpo.go.kr/health/contents.do?key=1008817",
+          "pattern": "A"
+        },
+        {
+          "text": "모자건강 프로그램",
+          "url": "https://www.gunpo.go.kr/health/contents.do?key=1009091",
+          "pattern": "A"
+        },
+        {
+          "text": "모자건강",
+          "url": "https://www.gunpo.go.kr/health/sub.do?bbsNo=4&key=1008817",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임신출산 지원",
+          "url": "https://www.gunpo.go.kr/health/sub.do?key=1008448",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.gunpo.go.kr/health/index.do"
+    },
+    "포천시": {
+      "name": "포천시",
+      "status": "found",
+      "urls": [
+        {
+          "text": "영유아건강검진",
+          "url": "https://www.pocheon.go.kr/pbhlth/sub.do?key=7120",
+          "pattern": "A_variant"
+        }
+      ],
+      "method": "playwright",
+      "total_links": 645,
+      "found_at_depth": 1
+    },
+    "울산 북구": {
+      "name": "울산 북구",
+      "domain": "www.bukgu.ulsan.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부/영유아",
+          "url": "https://www.bukgu.ulsan.kr/health/pageCont.do?menuNo=4110100",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "2026년 3월 임산부 영유아 건강교...",
+          "url": "https://www.bukgu.ulsan.kr/health/cop/bbs/selectBoardArticle.do?nttId=1699&bbsId=BBSMSTR_000000000011&menuNo=5010100",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "2026년  2월 임산부 영유아 건강...",
+          "url": "https://www.bukgu.ulsan.kr/health/cop/bbs/selectBoardArticle.do?nttId=1696&bbsId=BBSMSTR_000000000011&menuNo=5010100",
+          "pattern": "A_variant"
+        }
+      ],
+      "search_depth": 3,
+      "accessed_url": "https://www.bukgu.ulsan.kr/health/cmm/main/mainPage.do",
+      "found_at_depth": 3,
+      "via_menu": "분야별정보 → 북구보건소"
+    },
+    "양평군": {
+      "name": "양평군",
+      "domain": "www.yangpyeong.go.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "안성시": {
+      "name": "안성시",
+      "domain": "www.anseong.go.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.anseong.go.kr/health/main.do"
+    },
+    "과천시": {
+      "name": "과천시",
+      "domain": "www.gcity.go.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "동두천시": {
+      "name": "동두천시",
+      "domain": "www.ddc.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.ddc.go.kr/health/contents.do?key=816",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부건강관리사업",
+          "url": "https://www.ddc.go.kr/health/contents.do?key=819",
+          "pattern": "A"
+        },
+        {
+          "text": "출산지원사업",
+          "url": "https://www.ddc.go.kr/health/contents.do?key=825",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.ddc.go.kr/health/sub.do?key=776",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "1기 아기마중 출산준비교실 수강생 모집(모자보건 프로그램 )2026.02.03",
+          "url": "https://www.ddc.go.kr/health/selectBbsNttView.do?key=1427&bbsNo=79&nttNo=154695&integrDeptCode=health",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.ddc.go.kr/health/index.do"
+    },
+    "의왕시": {
+      "name": "의왕시",
+      "domain": "www.uiwang.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건팀",
+          "url": "https://www.uiwang.go.kr/UWKORINTRO0301/4030177?teamCode=U000285",
+          "pattern": "unknown"
+        }
+      ],
+      "accessed_url": "https://www.uiwang.go.kr/UWKORINTRO0301/4030177"
+    },
+    "연천군": {
+      "name": "연천군",
+      "domain": "www.yeoncheon.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.yeoncheon.go.kr/health/contents.do?key=5148",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.yeoncheon.go.kr/health/contents.do?key=5148",
+          "pattern": "A"
+        },
+        {
+          "text": "보건사업안내모자보건사업, 방문보건사업, 의료비지원 등 다양한 보건사업을실시합니다.",
+          "url": "https://www.yeoncheon.go.kr/health/contents.do?key=3727",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.yeoncheon.go.kr/health/index.do"
+    },
+    "가평군": {
+      "name": "가평군",
+      "domain": "www.gp.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부, 영유아 영양플러스",
+          "url": "http://www.gp.go.kr/health/contents.do?key=210",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.gp.go.kr/health/contents.do?key=219",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.gp.go.kr/health/index.do"
+    },
+    "춘천시": {
+      "name": "춘천시",
+      "domain": "www.chuncheon.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.chuncheon.go.kr/health/business/vaccination/shingles/#lnk",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.chuncheon.go.kr/health/business/maternal-and-child-health/",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.chuncheon.go.kr/health/business/vaccination/shingles/#lnk",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.chuncheon.go.kr/health/business/vaccination/shingles/",
+          "pattern": "unknown"
+        }
+      ],
+      "search_depth": 3,
+      "accessed_url": "https://www.chuncheon.go.kr/health/business/vaccination/shingles/",
+      "found_at_depth": 2,
+      "via_menu": "2026년 대상포진 예방접종\r\n■ 지원대상: 주민등록상 춘천시 거주 1년이상인 50세 이상 기초생 활 수급자 및 차상위계층 대상자(1976. 12. 31. 이전 출생자)\r\n■ 지원기간: ~ 2026. 12. 15.\r\n■ 지원내용: 대상포진 예방접종 1회 무료지원(기접종자 제외)\r\n■ 접종장소: 위탁의료기관(춘천시보건소 홈페이지 참고)\r\n■ 문의: 춘천시보건소 예방접종팀(033-245-5900)"
+    },
+    "원주시": {
+      "name": "원주시",
+      "domain": "www.wonju.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.wonju.go.kr/health/contents.do?key=6160&",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건사업 안내",
+          "url": "https://www.wonju.go.kr/health/contents.do?key=6160&",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부",
+          "url": "https://www.wonju.go.kr/health/contents.do?key=1717&",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 건강관리",
+          "url": "https://www.wonju.go.kr/health/contents.do?key=1717&",
+          "pattern": "A"
+        },
+        {
+          "text": "산모·신생아건강관리지원사업",
+          "url": "https://www.wonju.go.kr/health/contents.do?key=1718&",
+          "pattern": "A"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원 본인부담금 지원사업",
+          "url": "https://www.wonju.go.kr/health/contents.do?key=3589&",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험임산부 의료비 지원사업",
+          "url": "https://www.wonju.go.kr/health/contents.do?key=1719&",
+          "pattern": "A"
+        },
+        {
+          "text": "예비임산부 풍진예방접종",
+          "url": "https://www.wonju.go.kr/health/contents.do?key=5262&",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년 산모",
+          "url": "https://www.wonju.go.kr/health/contents.do?key=1731&",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비지원",
+          "url": "https://www.wonju.go.kr/health/contents.do?key=1719&",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 주차요금 감면 공영주차장 현황（임산부 차량용 스티커 관련）",
+          "url": "https://www.wonju.go.kr/health/selectBbsNttView.do?bbsNo=55&nttNo=477149&key=1655",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건 아이콘모자보건",
+          "url": "https://www.wonju.go.kr/health/sub.do?key=1717",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.wonju.go.kr/health/main.do"
+    },
+    "청주시": {
+      "name": "청주시",
+      "domain": "www.cheongju.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부영유아",
+          "url": "https://www.cheongju.go.kr/sdhealth/viewTnHealthLfeCycleBsnsU.do?key=20611&no=51",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 자동차표지 발급",
+          "url": "https://www.cheongju.go.kr/sdhealth/viewTnHealthLfeCycleBsnsU.do?key=20612&no=52",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 및 영유아 건강교실",
+          "url": "https://www.cheongju.go.kr/sdhealth/viewTnHealthLfeCycleBsnsU.do?key=20618&no=43",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모신생아 건강관리",
+          "url": "https://www.cheongju.go.kr/sdhealth/viewTnHealthLfeCycleBsnsU.do?key=20615&no=41",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 산후조리비 지원",
+          "url": "https://www.cheongju.go.kr/sdhealth/viewTnHealthLfeCycleBsnsU.do?key=23687&no=82",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "고위험임산부의료비지원",
+          "url": "https://www.cheongju.go.kr/sdhealth/viewTnHealthLfeCycleBsnsU.do?key=20616&no=26",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "청소년산모임신출산의료비지원",
+          "url": "https://www.cheongju.go.kr/sdhealth/viewTnHealthLfeCycleBsnsU.do?key=20617&no=42",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건(임산부영유아목록)",
+          "url": "https://www.cheongju.go.kr/sdhealth/viewTnHealthLfeCycleBsnsU.do?key=20611&no=51",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.cheongju.go.kr/sdhealth/index.do"
+    },
+    "강릉시": {
+      "name": "강릉시",
+      "domain": "www.gangneung.go.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "천안시": {
+      "name": "천안시",
+      "domain": "www.cheonan.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "세계모유수유주간(8.1~8.7)기념 「모유수유 클래스」 답변자료세계모유수유주간 기념 모유수유클래스 행사 참석자 질문지(임산부 설문지)에 대한 답변을 게시합니다.2023.08.18",
+          "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000160/view.do?nttId=B00000345909EszZHouW",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.cheonan.go.kr/shealth/main.do"
+    },
+    "충주시": {
+      "name": "충주시",
+      "domain": "www.chungju.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부",
+          "url": "https://www.chungju.go.kr/health/contents.do?key=1741",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 산전·후 우울증 검사",
+          "url": "https://www.chungju.go.kr/health/contents.do?key=3794",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 자동차 표지 발급",
+          "url": "https://www.chungju.go.kr/health/contents.do?key=3281",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년산모 의료비 지원(국민행복카드)",
+          "url": "https://www.chungju.go.kr/health/contents.do?key=1743",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험임산부의료비지원",
+          "url": "https://www.chungju.go.kr/health/contents.do?key=1742",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아건강관리지원",
+          "url": "https://www.chungju.go.kr/health/contents.do?key=1748",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 산후 조리비 지원",
+          "url": "https://www.chungju.go.kr/health/contents.do?key=3824",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부",
+          "url": "https://www.chungju.go.kr/health/contents.do?key=1741",
+          "pattern": "A"
+        },
+        {
+          "text": "2026년 모자보건사업 기간제근로자 채용 공고",
+          "url": "https://www.chungju.go.kr/health/selectBbsNttView.do?key=1811&bbsNo=5&nttNo=316989&searchCtgry=보건과(보건소)$건강증진과(보건소)$질병관리과(보건소)$감염병관리과(보건소)",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부",
+          "url": "https://www.chungju.go.kr/health/contents.do?key=1739",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.chungju.go.kr/health/index.do"
+    },
+    "제천시": {
+      "name": "제천시",
+      "domain": "www.jecheon.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.jecheon.go.kr/health/contents.do?key=905",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부·영유아 등록관리 지원",
+          "url": "https://www.jecheon.go.kr/health/contents.do?key=906",
+          "pattern": "A"
+        },
+        {
+          "text": "임신/출산지원시책",
+          "url": "https://www.jecheon.go.kr/health/contents.do?key=2373",
+          "pattern": "A"
+        },
+        {
+          "text": "임신·출산 종합 정보제공 안내",
+          "url": "https://www.jecheon.go.kr/health/contents.do?key=50243",
+          "pattern": "A"
+        },
+        {
+          "text": "충청북도 임산부 산후조리비 지원",
+          "url": "https://www.jecheon.go.kr/health/contents.do?key=50282",
+          "pattern": "A"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원사업",
+          "url": "https://www.jecheon.go.kr/health/contents.do?key=913",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원사업",
+          "url": "https://www.jecheon.go.kr/health/contents.do?key=2553",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년 산모 임신·출산 의료비 지원",
+          "url": "https://www.jecheon.go.kr/health/contents.do?key=2974",
+          "pattern": "A"
+        },
+        {
+          "text": "임신에서 출산까지모자보건 사업",
+          "url": "https://www.jecheon.go.kr/health/contents.do?key=905",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.jecheon.go.kr/health/index.do"
+    },
+    "서산시": {
+      "name": "서산시",
+      "domain": "www.seosan.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.seosan.go.kr/health/contents.do?key=2386",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 건강관리",
+          "url": "https://www.seosan.go.kr/health/contents.do?key=2387",
+          "pattern": "A"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원",
+          "url": "https://www.seosan.go.kr/health/contents.do?key=2393",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.seosan.go.kr/health/contents.do?key=2398",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비 지원",
+          "url": "https://www.seosan.go.kr/health/contents.do?key=4672",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 자동차 표지 발급",
+          "url": "https://www.seosan.go.kr/health/contents.do?key=9451",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건상담실",
+          "url": "https://www.seosan.go.kr/health/selectBbsNttList.do?bbsNo=46&key=354",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.seosan.go.kr/health/index.do"
+    },
+    "논산시": {
+      "name": "논산시",
+      "domain": "www.nonsan.go.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.nonsan.go.kr/errors/"
+    },
+    "아산시": {
+      "name": "아산시",
+      "domain": "www.asan.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.asan.go.kr/health/main/index.php?m_cd=308",
+          "pattern": "unknown"
+        },
+        {
+          "text": "출산지원사업",
+          "url": "https://www.asan.go.kr/health/main/index.php?m_cd=309",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건사업임신부 지원사업 등 다양한 모자보건 서비스 지원",
+          "url": "https://www.asan.go.kr/health/main/index.php?m_cd=73#02",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.asan.go.kr/health/main/index.php?m_cd=73#02",
+          "pattern": "unknown"
+        }
+      ],
+      "accessed_url": "https://www.asan.go.kr/health/main/"
+    },
+    "보령시": {
+      "name": "보령시",
+      "domain": "www.boryeong.go.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "당진시": {
+      "name": "당진시",
+      "domain": "www.dangjin.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자건강",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_01.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모, 신생아 건강관리지원",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_04.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모‧신생아 건강관리 서비스 이용 본인부담금 지원",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_05.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "청소년산모 임신 출산 의료비 지원",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_12.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 영유아 영양플러스 사업",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_13.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "고위험 임산부 의료비지원",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_15.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자건강",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_01.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모, 신생아 건강관리지원",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_04.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모‧신생아 건강관리 서비스 이용 본인부담금 지원",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_05.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "청소년산모 임신 출산 의료비 지원",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_12.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 영유아 영양플러스 사업",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_13.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "고위험 임산부 의료비지원",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_15.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자건강",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_01.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모, 신생아 건강관리",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_04.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "청소년산모 임신 출산",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_12.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 영유아 영양플러스",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_13.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "고위험 임산부 의료비지원",
+          "url": "https://www.dangjin.go.kr/health/sub03_06_15.do",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.dangjin.go.kr/health/index.do"
+    },
+    "공주시": {
+      "name": "공주시",
+      "domain": "www.gongju.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.gongju.go.kr/health/sub03_02_01_01.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 지원사업",
+          "url": "https://www.gongju.go.kr/health/sub03_02_01_01.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "출산지원사업",
+          "url": "https://www.gongju.go.kr/health/sub03_02_21_01.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.gongju.go.kr/health/sub03_02_01_01.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 지원사업",
+          "url": "https://www.gongju.go.kr/health/sub03_02_01_01.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "출산지원사업",
+          "url": "https://www.gongju.go.kr/health/sub03_02_21_01.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.gongju.go.kr/health/sub03_02_01_01.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 지원사업",
+          "url": "https://www.gongju.go.kr/health/sub03_02_01_01.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "출산지원사업",
+          "url": "https://www.gongju.go.kr/health/sub03_02_21_01.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.gongju.go.kr/health/sub03_02_01_01.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 지원사업",
+          "url": "https://www.gongju.go.kr/health/sub03_02_01_01.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "출산지원사업",
+          "url": "https://www.gongju.go.kr/health/sub03_02_21_01.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.gongju.go.kr/health/sub03_02_01.do",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.gongju.go.kr/health/main.do"
+    },
+    "군산시": {
+      "name": "군산시",
+      "domain": "www.gunsan.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부 건강관리",
+          "url": "https://www.gunsan.go.kr/health/m1575",
+          "pattern": "unknown"
+        },
+        {
+          "text": "산모/신생아 건강관리 지원",
+          "url": "https://www.gunsan.go.kr/health/m1577",
+          "pattern": "unknown"
+        },
+        {
+          "text": "청소년 산모 임신/출산 의료비 지원",
+          "url": "https://www.gunsan.go.kr/health/m1581",
+          "pattern": "unknown"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.gunsan.go.kr/health/m1583",
+          "pattern": "unknown"
+        },
+        {
+          "text": "임산부 영유아 보충 건강관리",
+          "url": "https://www.gunsan.go.kr/health/m1594",
+          "pattern": "unknown"
+        }
+      ],
+      "accessed_url": "https://www.gunsan.go.kr/health/main.do"
+    },
+    "익산시": {
+      "name": "익산시",
+      "domain": "www.iksan.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.iksan.go.kr/health/index.do?menuUid=ff808081975e28f701977649cadc09ae",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 지원",
+          "url": "https://www.iksan.go.kr/health/index.do?menuUid=ff808081975e28f70197766267660a80",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 등록 및 건강관리",
+          "url": "https://www.iksan.go.kr/health/index.do?menuUid=ff808081975e28f70197766428610aa4",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 280건강관리비 지원",
+          "url": "https://www.iksan.go.kr/health/index.do?menuUid=ff808081975e28f7019776644e780aa8",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "청소년 산모 의료비 지원",
+          "url": "https://www.iksan.go.kr/health/index.do?menuUid=ff808081975e28f70197766472b10aac",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부 교실 운영",
+          "url": "https://www.iksan.go.kr/health/index.do?menuUid=ff808081975e28f701977664992f0ab0",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모신생아 건강관리지원(정부)",
+          "url": "https://www.iksan.go.kr/health/index.do?menuUid=ff808081975e28f701977664d8ab0ab4",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모신생아 건강관리 확대지원(자체)",
+          "url": "https://www.iksan.go.kr/health/index.do?menuUid=ff808081975e28f70197766500480ab8",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "고위험임산부 의료비 지원",
+          "url": "https://www.iksan.go.kr/health/index.do?menuUid=ff808081975e28f70197766525e60abc",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "말풍선+하트모자보건",
+          "url": "https://www.iksan.go.kr/health/index.do?menuUid=ff808081975e28f7019776633ea30a90",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "보건지원과익산시 보건소 무료건강검진 사업 안내익산시 보건소에서 추진중에 있는 무료 건강검진사업을 안내드립니다.\r\n\r\n- 대상자: 전입자, 예비 신혼부부, 우수자원봉사자, 가족시설입소자, 임산부 등록자, 한방난임지원 대상자\r\n\r\n- 검사항목 및 준비서류 : 붙임 문서 참조\r\n\r\n* 문의 : 859-4844, 4845 (익산시보건소 검사실)2026.02.05",
+          "url": "https://www.iksan.go.kr/health/board/post/view.do?boardUid=ff808081975e28f7019776f2b4eb0c60&menuUid=ff808081975e28f70197764ddfa809ef&postUid=4028a6109c282b8d019c2b0a5f6a45df",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "1308위기임산부상담",
+          "url": "https://www.ncrc.or.kr/ncrc1308",
+          "pattern": "unknown"
+        }
+      ],
+      "accessed_url": "https://www.iksan.go.kr/health/index.do"
+    },
+    "남원시": {
+      "name": "남원시",
+      "domain": "www.namwon.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "남원시 공공산후조리원 개원\n엄마와 아기가 만나는 설레는 그 순간, 가장 건강하고 행복한 첫 만남이 될 수 있도록 산후케어센터 다온(DAON)이 함께 합니다.\n산모 마사지, 아로마 테라피, 산후요가, 건강상담(소아과, 산부인과), 식단관리\n- 위치 : 전북특별자치도 남원시 충정로 373 \n- 전화 : 0507-1396-1679",
+          "url": "https://www.namwon.go.kr/board/post/view.do?boardUid=ff8080818ea1b850018ea1e3e9ad0081&menuUid=ff8080818e3beff0018e4075e410006e&postUid=9be51b0e9983c830019a80b8bc0135a9",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "예비 부모임산부 영양제 지원(엽산제, 철분제)\n문의: 보건소(063-620-7983)",
+          "url": "https://www.namwon.go.kr/board/post/view.do?boardUid=ff8080818ea1b850018ea1e3e9ad0081&menuUid=ff8080818e3beff0018e4075e410006e&postUid=c647906c679b4645b8863f5ac2122585",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "2026년 시민 체감형 보건사업 강화남원시 보건소(소장 한용재)는 2026년을 기점으로 치매 예방과 조기검진, 건강취약계층관리, 자살예방 안전망 구축, 출산·난임 지원 확대 등 시민들이 일상에서 체감할 수 있는 맞춤형 보건사업을 한층 강화한다고 밝혔다.\r\n \r\n■ 공공 산후케어 확대로 출산 친화 환경 조성\r\n전북특별자치도 제1호 공공산후조리원인 ‘산후케어센터 다온’이 본격 운영에 들어갔다. 해당 시설은 365일 24시간 전문 돌봄 체계를 갖춘 공공시설로, 산모와 신생아를 위한 안전하고 체계적인 산후돌봄 서비스를 제공한다.\r\n \r\n이용 대상은 남원시민을 비롯해 전북도민과 지리산권 지자체 산모까지 확대 운영되며, 이용료 감면 혜택을 통해 산모의 경제적 부담을 대폭 낮췄다. 또한 산모 마사지·산후요가·건강상담 등 맞춤형 산후관리 프로그램도 함께 운영해 산모의 빠른 회복을 돕는다.\r\n \r\n■ ICT 기반 방문건강관리로 건강취약계층 맞춤 관리\r\n2026년에는 기존에 개별적으로 운영하던 방문건강관리사업과 AI-IoT 기반 어르신 건강관리사업을 통합해 「ICT융합 방문건강관리사업」으로 새롭게 추진된다. 노인과 장애인 등 건강취약계층을 대상으로 만성질환 관리와 노쇠 예방을 강화할 예정이다.\r\n \r\n혈압·혈당·콜레스테롤 등 주요 건강지표와 노쇠 조사를 통해 대상자의 건강 상태를 종합적으로 파악하고, 개인 특성에 따라 AI-IoT 기반 비대면 건강관리 또는 대면 방문건강관리 서비스를 제공한다. 이를 통해 건강 위험 요인을 조기에 발견하고 지속적인 건강 관리를 도모할 계획이다. 특히 돌봄이 필요한 복합사례 대상자는 통합돌봄사업과 연계해 개별 욕구에 맞는 서비스를 제공함으로써 지역사회 통합돌봄을 실현할 계획이다.\r\n \r\n■ 치매 예방·조기검진·돌봄까지 촘촘한 치매 대응체계 구축\r\n남원시 치매안심센터는 2026년부터 스마트 경로당과 연계해 자체 치매예방교육 앱 홍보를 본격 추진한다. 경로당을 직접 방문해 앱 설치부터 사용 방법까지 단계별로 지원함으로써, 어르신들의 스마트 기기 활용 역량을 높이고 일상 속 치매예방 교육 참여 환경을 조성할 계획이다.\r\n \r\n아울러 조기검진 활성화를 위해 대상자 가정을 직접 방문하는 이동검진 운영을 강화하고, 75세 이상 어르신과 인지저하자를 중심으로 치매인지선별검사를 집중 실시해 치매 조기 발견과 조기 개입 체계를 더욱 공고히 한다.\r\n \r\n또한 치매 돌봄 사각지대 해소사업과 주민참여예산을 연계한 그림책 자서전 사업을 새롭게 추진한다. 이를 통해 치매 어르신에게는 삶을 기록하고 되돌아보는 기회를 제공하고, 가족에게는 정서적 공감과 소통의 계기를 마련함으로써 치매에 대한 사회적 인식 개선과 공감 문화 확산에 기여할 것으로 기대된다.\r\n \r\n■ 정신건강 취약계층 집중관리 및 자살유족 지원으로 생명안전망 강화\r\n지역주민의 정신건강 증진과 자살 예방을 위해 정신건강 취약계층을 대상으로 한 집중관리 및 원스톱 지원체계를 강화한다. 직접 찾아가는 ‘마음안심 버스’를 확대 운영해 우울·스트레스 검사와 상담을 제공하고, 심리상담 바우처 지원을 통해 상담 접근성을 높일 계획이다.\r\n \r\n또한 읍면동 맞춤형 복지팀과 연계해 경제위기자·저소득층·고령층 등을 대상으로 우울증 검사를 실시하고, 폐농약 수거 등 자살 고위험 환경 개선 사업도 병행 추진한다. 아울러 2026년 7월부터는 자살유족을 대상으로 한 원스톱 지원사업을 새롭게 시행한다. 사고 발생 직후 전담 인력이 신속히 개입해 상담·복지·의료 서비스를 통합 제공하며, 경찰·소방 등 유관기관과의 협력체계를 구축하고, 남원의료원 생명사랑위기대응센터와 연계해 고위험군을 조기 발굴·개입할 예정이다. 이를 통해 심리지원부터 경제·환경 지원까지 연속적인 지원을 제공해 자살유족의 회복과 2차 위기 예방을 도모한다.\r\n \r\n■ 저출생 대응 맞춤형 지원으로 임신·출산 부담 완화\r\n저출생 문제에 적극 대응하기 위해 임신 준비 단계부터 출산 이후까지 이어지는 맞춤형 지원사업을 강화한다. 임신을 준비하는 부부를 대상으로 임신 사전 건강관리와 상담 지원을 확대하고, 임산부 등록 관리와 고위험 임산부 의료비 지원 및 집중 관리를 통해 안전한 임신·출산 환경 조성에 힘쓸 계획이다.\r\n \r\n또한 산모·신생아 건강관리 지원과 가정방문 모유수유클리닉 운영을 통해 출산 이후에도 산모의 회복과 신생아 건강관리를 지속적으로 제공하고, 미숙아 의료비 지원 등 영유아 사전 예방적 건강관리 사업을 연계 추진하여 초기 양육 부담을 완화한다.\r\n \r\n이와 함께 남원시는 출산·난임 지원 강화를 위해 2026년부터 남성 요인 난임 진단자를 대상으로 한 남성 난임 시술비 지원사업을 새롭게 시행한다. 시술 전 검사비와 시술비 본인부담금, 정자동결비 등을 지원하며, 시술비 본인부담금의 90%, 1인당 최대 3회, 회당 최대 100만 원까지 지원해 난임부부의 경제적 부담을 줄일 것으로 기대된다.\r\n \r\n한용재 남원시 보건소장은 “앞으로도 현장 중심의 맞춤형 보건정책을 지속적으로 확대해 모든 시민이 안심하고 살아갈 수 있는 건강하고 따뜻한 도시 남원을 만들어 나가겠다”고 말했다.",
+          "url": "https://www.namwon.go.kr/board/post/view.do?boardUid=ff8080818ea1fec5018ea24651660037&menuUid=ff8080818e3beff0018e407936b40088&postUid=9be51b0e9b7cd046019c30d2cd5655c9",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.namwon.go.kr/"
+    },
+    "목포시": {
+      "name": "목포시",
+      "domain": "www.mokpo.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "산모·신생아 건강관리지원",
+          "url": "https://www.mokpo.go.kr/health/medical_expense/promote_childbirth/mother_medical_care",
+          "pattern": "unknown"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비 지원사업",
+          "url": "https://www.mokpo.go.kr/health/medical_expense/promote_childbirth/teenage_mothers",
+          "pattern": "unknown"
+        },
+        {
+          "text": "고위험 임산부 의료비지원",
+          "url": "https://www.mokpo.go.kr/health/medical_expense/promote_childbirth/pregnant_woman",
+          "pattern": "unknown"
+        }
+      ],
+      "accessed_url": "https://www.mokpo.go.kr/health/main.do"
+    },
+    "정읍시": {
+      "name": "정읍시",
+      "domain": "www.jeongeup.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부,영유아영양플러스사업",
+          "url": "https://www.jeongeup.go.kr/index.jeongeup?menuCd=DOM_000000704007000000",
+          "pattern": "C"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.jeongeup.go.kr/index.jeongeup?menuCd=DOM_000000704010001000",
+          "pattern": "C"
+        },
+        {
+          "text": "임산부건강관리",
+          "url": "https://www.jeongeup.go.kr/index.jeongeup?menuCd=DOM_000000704010001000",
+          "pattern": "C"
+        },
+        {
+          "text": "산모신생아건강관리지원",
+          "url": "https://www.jeongeup.go.kr/index.jeongeup?menuCd=DOM_000000704010004000",
+          "pattern": "C"
+        },
+        {
+          "text": "고위험임산부의료비",
+          "url": "https://www.jeongeup.go.kr/index.jeongeup?menuCd=DOM_000000704010011000",
+          "pattern": "C"
+        },
+        {
+          "text": "청소년산모 임신출산의료비 지원",
+          "url": "https://www.jeongeup.go.kr/index.jeongeup?menuCd=DOM_000000704010017000",
+          "pattern": "C"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.jeongeup.go.kr/index.jeongeup?menuCd=DOM_000000704010001000",
+          "pattern": "C"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원사업",
+          "url": "http://www.jeongeup.go.kr/health/index.jeongeup?menuCd=DOM_000000704010004000",
+          "pattern": "C"
+        }
+      ],
+      "accessed_url": "https://www.jeongeup.go.kr/health/index.do"
+    },
+    "전주시": {
+      "name": "전주시",
+      "domain": "www.jeonju.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임신·출산지원",
+          "url": "https://www.jeonju.go.kr/index.9is?contentUid=ff8080818990c349018b041aa5083aae",
+          "pattern": "unknown"
+        }
+      ],
+      "accessed_url": "https://www.jeonju.go.kr/"
+    },
+    "순천시": {
+      "name": "순천시",
+      "domain": "www.suncheon.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "출산장려지원",
+          "url": "https://www.suncheon.go.kr/kr/welfare/0005/0001",
+          "pattern": "unknown"
+        }
+      ],
+      "search_depth": 3,
+      "accessed_url": "https://www.suncheon.go.kr/kr/",
+      "found_at_depth": 1
+    },
+    "포항시": {
+      "name": "포항시",
+      "domain": "www.pohang.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "고위험 임산부 의료비",
+          "url": "https://www.pohang.go.kr/health/contents.do?mid=0403000000",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.pohang.go.kr/health/contents.do?mid=0308000000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 건강관리 지원",
+          "url": "https://www.pohang.go.kr/health/contents.do?mid=0308020000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부관리",
+          "url": "https://www.pohang.go.kr/health/contents.do?mid=0308020100",
+          "pattern": "A"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원",
+          "url": "https://www.pohang.go.kr/health/contents.do?mid=0308030000",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비",
+          "url": "https://www.pohang.go.kr/health/contents.do?mid=0403000000",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년산모 임신출산 의료비",
+          "url": "https://www.pohang.go.kr/health/contents.do?mid=0413000000",
+          "pattern": "A"
+        },
+        {
+          "text": "35세 이상 산모 의료비 지원",
+          "url": "https://www.pohang.go.kr/health/contents.do?mid=0419000000",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.pohang.go.kr/health/main.do"
+    },
+    "경주시": {
+      "name": "경주시",
+      "domain": "www.gyeongju.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=3082&",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부건강관리",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=3106&",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모·신생아건강관리 지원",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=3133&",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "35세 이상 산모 의료비 지원",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=4101&",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "고위험임산부 의료비 지원",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=3136&",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "청소년산모 의료비 지원",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=3141&",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "기타 임신·출산관련 지원",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=3114&",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=3082&",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "임산부건강관리",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=3106&",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "산모·신생아건강관리 지원",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=3133&",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "35세 이상 산모 의료비 지원",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=4101&",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "고위험임산부 의료비 지원",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=3136&",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "청소년산모 의료비 지원",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=3141&",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "기타 임신·출산관련 지원",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=3114&",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "2026년 3월 아가튼튼행복맘 임산부프로그램 대상자 모집2026-02-09",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=3142&parm_bod_uid=314248&step=258",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.gyeongju.go.kr/health/page.do?mnu_uid=3082&",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.gyeongju.go.kr/health/index.do"
+    },
+    "구미시": {
+      "name": "구미시",
+      "domain": "www.gumi.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.gumi.go.kr/health/contents.do?mid=0315000000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 관리",
+          "url": "https://www.gumi.go.kr/health/contents.do?mid=0315260000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 건강 관리",
+          "url": "https://www.gumi.go.kr/health/contents.do?mid=0315070000",
+          "pattern": "A"
+        },
+        {
+          "text": "출산 준비 교실(임산부 교실) 운영",
+          "url": "https://www.gumi.go.kr/health/contents.do?mid=0315080000",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년 산모 의료비",
+          "url": "https://www.gumi.go.kr/health/contents.do?mid=0315150000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 영유아 영양 플러스",
+          "url": "https://www.gumi.go.kr/health/contents.do?mid=0315110000",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아건강관리지원사업",
+          "url": "https://www.gumi.go.kr/health/contents.do?mid=0315060000",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비",
+          "url": "https://www.gumi.go.kr/health/contents.do?mid=0315170000",
+          "pattern": "A"
+        },
+        {
+          "text": "35세 이상 산모의료비 지원",
+          "url": "https://www.gumi.go.kr/health/contents.do?mid=0315260100",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.gumi.go.kr/health/main.do"
+    },
+    "김천시": {
+      "name": "김천시",
+      "domain": "www.gc.go.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "여수시": {
+      "name": "여수시",
+      "domain": "www.yeosu.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.yeosu.go.kr/health/service/support",
+          "pattern": "unknown"
+        },
+        {
+          "text": "한눈에 알아보는 모자보건사업 총정리새창",
+          "url": "https://www.yeosu.go.kr/contents/12247/total_support.pdf",
+          "pattern": "unknown"
+        },
+        {
+          "text": "출산지원",
+          "url": "https://www.yeosu.go.kr/health/service/support/childbirth",
+          "pattern": "unknown"
+        },
+        {
+          "text": "임산부지원",
+          "url": "https://www.yeosu.go.kr/health/service/support/pregnant",
+          "pattern": "unknown"
+        },
+        {
+          "text": "임산부워킹맘 프로그램 운영",
+          "url": "https://www.yeosu.go.kr/health/service/support/program",
+          "pattern": "unknown"
+        },
+        {
+          "text": "산모 신생아 건강관리 지원",
+          "url": "https://www.yeosu.go.kr/health/service/support/mother",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.yeosu.go.kr/health/service/support",
+          "pattern": "unknown"
+        }
+      ],
+      "accessed_url": "https://www.yeosu.go.kr/health/main.do"
+    },
+    "안동시": {
+      "name": "안동시",
+      "domain": "www.andong.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.andong.go.kr/health/contents.do?mId=0302000000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 지원",
+          "url": "https://www.andong.go.kr/health/contents.do?mId=0302010000",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.andong.go.kr/health/contents.do?mId=0302000000",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 지원",
+          "url": "https://www.andong.go.kr/health/contents.do?mId=0302010000",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.andong.go.kr/health/main.do"
+    },
+    "영주시": {
+      "name": "영주시",
+      "domain": "www.yeongju.go.kr",
+      "status": "failed",
+      "urls": []
+    },
+    "나주시": {
+      "name": "나주시",
+      "domain": "www.naju.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.naju.go.kr/health/business/maternal",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.naju.go.kr/health/business/maternal/newborn",
+          "pattern": "unknown"
+        }
+      ],
+      "accessed_url": "https://www.naju.go.kr/health/main.do"
+    },
+    "창원시": {
+      "name": "창원시",
+      "domain": "www.changwon.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건",
+          "url": "https://www.changwon.go.kr/cwportal/depart/11066/14416/13321.web",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.changwon.go.kr/cwportal/depart/11066/14417/13398.web",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.changwon.go.kr/cwportal/depart/11066/14418/13760.web",
+          "pattern": "unknown"
+        },
+        {
+          "text": "임신·출산·육아 링크 모음",
+          "url": "https://www.changwon.go.kr/cwportal/depart/11067/13982/15236.web",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.changwon.go.kr/cwportal/depart/11066/13730/13322.web",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.changwon.go.kr/cwportal/depart/11066/13731/13399.web",
+          "pattern": "unknown"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.changwon.go.kr/cwportal/depart/11066/13732/13761.web",
+          "pattern": "unknown"
+        }
+      ],
+      "accessed_url": "https://www.changwon.go.kr/cwportal/depart.web"
+    },
+    "김해시": {
+      "name": "김해시",
+      "domain": "www.gimhae.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.gimhae.go.kr/00976/01553/07960.web",
+          "pattern": "unknown"
+        },
+        {
+          "text": "임산부 의료비 지원",
+          "url": "https://www.gimhae.go.kr/00976/01553/07974.web",
+          "pattern": "unknown"
+        }
+      ],
+      "accessed_url": "https://www.gimhae.go.kr/00976/01553/07920.web"
+    },
+    "상주시": {
+      "name": "상주시",
+      "domain": "www.sangju.go.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.sangju.go.kr/"
+    },
+    "양산시": {
+      "name": "양산시",
+      "domain": "www.yangsan.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부/영유아 건강관리사업",
+          "url": "https://www.yangsan.go.kr/health/contents.do?mid=0301010000",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건 사업",
+          "url": "https://www.yangsan.go.kr/health/contents.do?mid=0301000000",
+          "pattern": "A"
+        },
+        {
+          "text": "가임기/임산부 지원사업",
+          "url": "https://www.yangsan.go.kr/health/contents.do?mid=0301010000",
+          "pattern": "A"
+        },
+        {
+          "text": "산모신생아건강관리 지원사업",
+          "url": "https://www.yangsan.go.kr/health/contents.do?mid=0301040000",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건 프로그램 및 환경조성",
+          "url": "https://www.yangsan.go.kr/health/contents.do?mid=0301060000",
+          "pattern": "A"
+        }
+      ],
+      "accessed_url": "https://www.yangsan.go.kr/health/main.do"
+    },
+    "거제시": {
+      "name": "거제시",
+      "domain": "www.geoje.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부/영유아 영양플러스사업",
+          "url": "https://www.geoje.go.kr/index.geoje?menuCd=DOM_000010003006000000",
+          "pattern": "C"
+        },
+        {
+          "text": "가임여성 및 임산부 지원사업",
+          "url": "https://www.geoje.go.kr/index.geoje?menuCd=DOM_000010003012000000",
+          "pattern": "C"
+        },
+        {
+          "text": "산모·신생아건강관리 지원사업",
+          "url": "https://www.geoje.go.kr/index.geoje?menuCd=DOM_000010004007000000",
+          "pattern": "C"
+        },
+        {
+          "text": "청소년 산모 의료비 지원사업",
+          "url": "https://www.geoje.go.kr/index.geoje?menuCd=DOM_000010004009000000",
+          "pattern": "C"
+        },
+        {
+          "text": "고위험임산부지원사업",
+          "url": "https://www.geoje.go.kr/index.geoje?menuCd=DOM_000010004011000000",
+          "pattern": "C"
+        },
+        {
+          "text": "산모 신생아도우미지원사업",
+          "url": "https://www.geoje.go.kr/index.geoje?menuCd=DOM_000010004007000000",
+          "pattern": "C"
+        },
+        {
+          "text": "임산부",
+          "url": "https://www.geoje.go.kr/index.geoje?menuCd=DOM_000010007003000000",
+          "pattern": "C"
+        }
+      ],
+      "accessed_url": "https://www.geoje.go.kr/health/index.do"
+    },
+    "진주시": {
+      "name": "진주시",
+      "domain": "www.jinju.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임신·출산",
+          "url": "https://www.jinju.go.kr/00134/00614/02690.web?cate1=00004&#welfare1menu2",
+          "pattern": "unknown"
+        }
+      ],
+      "search_depth": 3,
+      "accessed_url": "https://www.jinju.go.kr/00134/00614/02690.web",
+      "found_at_depth": 2,
+      "via_menu": "보건복지정보검색"
+    },
+    "통영시": {
+      "name": "통영시",
+      "domain": "www.tongyeong.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임산부·다자녀 할인점",
+          "url": "https://www.tongyeong.go.kr/00973/00979/04040.web",
+          "pattern": "unknown"
+        }
+      ],
+      "accessed_url": "https://www.tongyeong.go.kr/"
+    },
+    "서귀포시": {
+      "name": "서귀포시",
+      "status": "accessible",
+      "urls": [],
+      "method": "playwright",
+      "total_links": 815
+    },
+    "밀양시": {
+      "name": "밀양시",
+      "domain": "www.miryang.go.kr",
+      "status": "accessible",
+      "urls": [],
+      "search_depth": 3,
+      "accessed_url": "https://www.miryang.go.kr/code404.jsp"
+    },
+    "제주시": {
+      "name": "제주시",
+      "domain": "www.jejusi.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "모자보건사업",
+          "url": "https://www.jejusi.go.kr/chc/guideBusiness/jeju/mch.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.jejusi.go.kr/chc/guideBusiness/wjeju/mch.do",
+          "pattern": "A_variant"
+        },
+        {
+          "text": "모자보건사업",
+          "url": "https://www.jejusi.go.kr/chc/guideBusiness/ejeju/mch.do",
+          "pattern": "A_variant"
+        }
+      ],
+      "accessed_url": "https://www.jejusi.go.kr/chc/main.do"
+    },
+    "여주시": {
+      "name": "여주시",
+      "domain": "www.yeoju.go.kr",
+      "status": "found",
+      "urls": [
+        {
+          "text": "임신·출산·영유아",
+          "url": "https://www.yeoju.go.kr/health/contents.do?key=713",
+          "pattern": "A"
+        },
+        {
+          "text": "임신전·임산부 지원",
+          "url": "https://www.yeoju.go.kr/health/contents.do?key=713",
+          "pattern": "A"
+        },
+        {
+          "text": "임산부 지원",
+          "url": "https://www.yeoju.go.kr/health/contents.do?key=714",
+          "pattern": "A"
+        },
+        {
+          "text": "경기도 분만취약지 임산부 교통비 지원사업",
+          "url": "https://www.yeoju.go.kr/health/contents.do?key=3103",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건 프로그램",
+          "url": "https://www.yeoju.go.kr/health/contents.do?key=716",
+          "pattern": "A"
+        },
+        {
+          "text": "산모·신생아 건강관리 지원사업",
+          "url": "https://www.yeoju.go.kr/health/contents.do?key=719",
+          "pattern": "A"
+        },
+        {
+          "text": "난임부부 시술비 지원",
+          "url": "https://www.yeoju.go.kr/health/contents.do?key=724",
+          "pattern": "A"
+        },
+        {
+          "text": "여주시 난임부부 시술비 지원",
+          "url": "https://www.yeoju.go.kr/health/contents.do?key=3471",
+          "pattern": "A"
+        },
+        {
+          "text": "고위험 임산부 의료비 지원",
+          "url": "https://www.yeoju.go.kr/health/contents.do?key=725",
+          "pattern": "A"
+        },
+        {
+          "text": "청소년산모 임신·출산 의료비 지원",
+          "url": "https://www.yeoju.go.kr/health/contents.do?key=726",
+          "pattern": "A"
+        },
+        {
+          "text": "난임시술 중단의료비 지원",
+          "url": "https://www.yeoju.go.kr/health/contents.do?key=2544",
+          "pattern": "A"
+        },
+        {
+          "text": "모자보건",
+          "url": "https://www.yeoju.go.kr/health/contents.do?key=716",
+          "pattern": "A"
+        }
+      ],
+      "search_depth": 3,
+      "accessed_url": "https://www.yeoju.go.kr/health/index.do",
+      "found_at_depth": 1
+    },
+    "대구 서구": {
+      "name": "대구 서구",
+      "domain": "seogu.daegu.kr",
+      "status": "failed",
+      "urls": []
+    }
+  },
+  "rescan_date": "2026-02-12 03:11:32",
+  "rescan_depth": 3,
+  "playwright_scan_date": "2026-02-12 03:22:51"
+}
